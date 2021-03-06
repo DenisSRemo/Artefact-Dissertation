@@ -46,7 +46,13 @@ public class Legionary : agent
     private Vector3 c2;
     private Vector3 c1_exit;
     private Vector3 c2_enter;
-    
+
+
+    private Vector3 formation_pos;
+    private Vector3 formation_dir;
+    private Vector3 target_pos;
+    private Vector3 target_dir;
+    private Vector3 dirVec;
 
     NavMeshAgent agent;
 
@@ -67,6 +73,7 @@ public class Legionary : agent
 
         testudo_stance = false;
 
+        
        
     }
 
@@ -159,8 +166,19 @@ public class Legionary : agent
 
 
 
-    public void movement(Vector3 Target)
+    public void movement()
     {
+        dirVec = target_pos - formation_pos;
+        Vector3 formation_perp = new Vector3(formation_dir.x * dirVec.x, formation_dir.y * dirVec.y, formation_dir.z * dirVec.z);
+
+        formation_perp = r / formation_perp.magnitude * formation_perp;
+        c1 = formation_pos + formation_perp;
+
+        dirVec = -dirVec;
+         formation_perp = new Vector3(target_dir.x * dirVec.x, target_dir.y * dirVec.y, target_dir.z * dirVec.z);
+
+        formation_perp = r / formation_perp.magnitude * formation_perp;
+        c2 = target_pos + formation_perp;
 
     }
 }
