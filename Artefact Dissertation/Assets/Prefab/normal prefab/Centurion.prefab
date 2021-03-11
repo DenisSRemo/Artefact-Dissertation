@@ -588,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426f919121557814a8af5793535ccf89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  centurion: {fileID: 2745275412967657910}
 --- !u!195 &8810120132907801421
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -623,3 +624,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   formation: 0
+  angle: 0
