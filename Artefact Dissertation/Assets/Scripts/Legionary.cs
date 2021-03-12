@@ -13,8 +13,8 @@ public class Legionary : agent
     [SerializeField] private float rank_open_order;
     [SerializeField] private float column_open_order;
 
-    //[SerializeField] private float rank_testudo;
-    //[SerializeField] private float column_testudo;
+    [SerializeField] private float rank_testudo;
+    [SerializeField] private float column_testudo;
 
     //[SerializeField] private float rank_orbis;
     //[SerializeField] private float column_orbis;
@@ -120,8 +120,8 @@ public class Legionary : agent
        // testudo_stance = false;
        // animator.SetBool("testudo_stance", false);
         pos = centurion.transform.position;
-        pos.x = pos.x + column_close_order * distanceOpenOrder;
-        pos.z = pos.z + rank_close_order * -distanceOpenOrder;
+        pos.x = pos.x + column_close_order * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad); 
+        pos.z = pos.z + rank_close_order * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
         agent.destination = pos;
     }
     public void Testudo()
@@ -129,8 +129,8 @@ public class Legionary : agent
       //  testudo_stance = true;
       //  animator.SetBool("testudo_stance", true);
         pos = centurion.transform.position;
-        pos.x = pos.x + column_close_order * distanceOpenOrder;
-        pos.z = pos.z + rank_close_order * -distanceOpenOrder;
+        pos.x = pos.x + column_testudo * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad);
+        pos.z = pos.z + rank_testudo * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
         agent.destination = pos;
     }
     public void Orbis()
