@@ -7,20 +7,21 @@ public class Legionary : agent
 {
 
     [SerializeField] public Centurion centurion;
-    [SerializeField] private float rank_close_order;
-    [SerializeField] private float column_close_order;
+    [SerializeField] private float offset_y_close_order;
+    [SerializeField] private float offset_x_close_order;
 
-    [SerializeField] private float rank_open_order;
-    [SerializeField] private float column_open_order;
+    [SerializeField] private float offset_y_open_order;
+    [SerializeField] private float offset_x_open_order;
 
-    [SerializeField] private float rank_testudo;
-    [SerializeField] private float column_testudo;
+    [SerializeField] private float offset_y_testudo;
+    [SerializeField] private float offset_x_testudo;
 
-    //[SerializeField] private float rank_orbis;
-    //[SerializeField] private float column_orbis;
+    [SerializeField] private float offset_y_orbis;
+    [SerializeField] private float offset_x_orbis;
+    [SerializeField] private float angle_orbis;
 
-    //[SerializeField] private float rank_cuneus;
-    //[SerializeField] private float column_cuneus;
+    [SerializeField] private float offset_y_cuneus;
+    [SerializeField] private float offset_x_cuneus;
 
     public Vector3 pos;
 
@@ -108,8 +109,8 @@ public class Legionary : agent
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 pos = hit.point;
-                pos.x = pos.x + column_open_order * distanceOpenOrder*Mathf.Cos(centurion.angle*Mathf.Deg2Rad);
-                pos.z = pos.z + rank_open_order * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
+                pos.x = pos.x + offset_x_open_order* distanceOpenOrder*Mathf.Cos(centurion.angle*Mathf.Deg2Rad);
+                pos.z = pos.z + offset_y_open_order * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
                 agent.destination = pos;
             }
 
@@ -120,8 +121,8 @@ public class Legionary : agent
        // testudo_stance = false;
        // animator.SetBool("testudo_stance", false);
         pos = centurion.transform.position;
-        pos.x = pos.x + column_close_order * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad); 
-        pos.z = pos.z + rank_close_order * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
+        pos.x = pos.x + offset_x_close_order * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad); 
+        pos.z = pos.z + offset_y_close_order * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
         agent.destination = pos;
     }
     public void Testudo()
@@ -129,8 +130,8 @@ public class Legionary : agent
       //  testudo_stance = true;
       //  animator.SetBool("testudo_stance", true);
         pos = centurion.transform.position;
-        pos.x = pos.x + column_testudo * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad);
-        pos.z = pos.z + rank_testudo * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
+        pos.x = pos.x + offset_x_testudo * distanceOpenOrder * Mathf.Cos(centurion.angle * Mathf.Deg2Rad);
+        pos.z = pos.z + offset_y_testudo * -distanceOpenOrder * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
         agent.destination = pos;
     }
     public void Orbis()
@@ -138,9 +139,11 @@ public class Legionary : agent
       //  testudo_stance = false;
       //  animator.SetBool("testudo_stance", false);
         pos = centurion.transform.position;
-        pos.x = pos.x + column_close_order * distanceOpenOrder;
-        pos.z = pos.z + rank_close_order * -distanceOpenOrder;
+        pos.x = pos.x + offset_x_orbis * distanceOpenOrder;
+        pos.z = pos.z + offset_y_orbis * -distanceOpenOrder;
         agent.destination = pos;
+
+        gameObject.transform.Rotate(0, angle_orbis, 0);
     }
 
     public void Cuneus()
@@ -154,8 +157,8 @@ public class Legionary : agent
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 pos = hit.point;
-                pos.x = pos.x + column_close_order * distanceOpenOrder;
-                pos.z = pos.z + rank_close_order * -distanceOpenOrder;
+                pos.x = pos.x + offset_x_cuneus * distanceOpenOrder;
+                pos.z = pos.z + offset_y_cuneus * -distanceOpenOrder;
                 agent.destination = pos;
             }
 
