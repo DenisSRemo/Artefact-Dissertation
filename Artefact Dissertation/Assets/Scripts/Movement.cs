@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        
     }
 
     void Update()

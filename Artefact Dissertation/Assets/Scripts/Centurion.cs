@@ -15,6 +15,7 @@ public class Centurion : agent
     {
         formation = Formation.Close_Order;
         testudo_stance = false;
+        angle = gameObject.transform.eulerAngles.y;
     }
 
     // Update is called once per frame
@@ -26,5 +27,6 @@ public class Centurion : agent
         //}
         //else
         //    animator.SetBool("testudo_stance", false);
+        angle = gameObject.transform.eulerAngles.y;
     }
 }
