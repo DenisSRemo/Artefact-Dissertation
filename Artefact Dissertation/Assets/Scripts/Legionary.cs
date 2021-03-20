@@ -53,7 +53,7 @@ public class Legionary : agent
 
     NavMeshAgent agent;
 
-    private float angle_between_legionary_and_centurion;
+    private float angle;
 
    [SerializeField] private Formation formation;
 
@@ -67,7 +67,7 @@ public class Legionary : agent
         //animator.SetBool("testudo_stance", false);
         agent = GetComponent<NavMeshAgent>();
 
-
+       // agent.speed = 3;
 
         // testudo_stance = false;
 
@@ -94,19 +94,20 @@ public class Legionary : agent
 
         if (mouseDelta.sqrMagnitude < 0.1f)
         {
-            return; // don't do tiny rotations.
+            return;
         }
 
-        angle_between_legionary_and_centurion = Mathf.Atan2(mouseDelta.x, mouseDelta.y) * Mathf.Rad2Deg;
-        if (angle_between_legionary_and_centurion < 0) angle_between_legionary_and_centurion += 360;
+      
 
 
     }
 
     public void Open_Order()
     {
-       // testudo_stance = false;
+        // testudo_stance = false;
         //animator.SetBool("testudo_stance", false);
+        //agent.speed = 10;
+        angle = -centurion.angle;
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -114,9 +115,22 @@ public class Legionary : agent
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 pos = hit.point;
-                pos.x = pos.x + offset_x_open_order*Mathf.Cos(centurion.angle*Mathf.Deg2Rad);
-                pos.z = pos.z + offset_y_open_order* Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
+            
+                float x;
+                float y;
+
+                x = (pos.x + offset_x_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+                y = (pos.x + offset_x_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
+
+                pos.x = x;
+                pos.z = y;
+
+
                 agent.destination = pos;
+                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+                    transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
+                                                                  centurion.angle,
+                                                                  transform.localEulerAngles.z);
             }
 
         }
@@ -125,7 +139,9 @@ public class Legionary : agent
     {
         // testudo_stance = false;
         // animator.SetBool("testudo_stance", false);
+       // agent.speed = 5;
         pos = centurion.transform.position;
+        angle = -centurion.angle;
         //pos.x = (pos.x + offset_x_close_order) * Mathf.Cos(centurion.angle * Mathf.Deg2Rad);
         //pos.z = (pos.z + offset_y_close_order)* Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
        // agent.destination = pos;
@@ -133,8 +149,8 @@ public class Legionary : agent
         float x;
         float y;
 
-        x= (pos.x + offset_x_close_order) * Mathf.Cos(centurion.angle * Mathf.Deg2Rad)- (pos.z + offset_y_close_order) * Mathf.Sin(centurion.angle * Mathf.Deg2Rad)-pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad)+pos.z* Mathf.Sin(centurion.angle * Mathf.Deg2Rad)+pos.x;
-        y = (pos.x + offset_x_close_order) * Mathf.Sin(centurion.angle * Mathf.Deg2Rad) + (pos.z + offset_y_close_order) * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(centurion.angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z;
+        x= (pos.x + offset_x_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad)- (pos.z + offset_y_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad)-pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad)+pos.z* Mathf.Sin(angle * Mathf.Deg2Rad)+pos.x;
+        y = (pos.x + offset_x_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
        
         pos.x = x;
         pos.z = y;

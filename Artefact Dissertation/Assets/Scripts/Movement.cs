@@ -40,7 +40,7 @@ public class Movement : MonoBehaviour
 
             if (mouseDelta.sqrMagnitude < 0.1f)
             {
-                return; // don't do tiny rotations.
+                return;
             }
 
             angle = Mathf.Atan2(mouseDelta.x, mouseDelta.y) * Mathf.Rad2Deg;
