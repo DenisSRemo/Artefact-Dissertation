@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 20172261}
   - component: {fileID: 20172260}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,10 +549,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: 5
+  offset_y_open_order: -30
+  offset_x_open_order: 5
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -638,14 +638,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20172259}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -60}
+  m_LocalPosition: {x: 5, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 724930608}
   - {fileID: 1237739480}
   - {fileID: 1502821298}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &21311005
 GameObject:
@@ -898,7 +898,7 @@ GameObject:
   - component: {fileID: 25763952}
   - component: {fileID: 25763951}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -958,10 +958,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: -10
+  offset_y_open_order: -10
+  offset_x_open_order: -75
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -1047,14 +1047,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25763950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -30}
+  m_LocalPosition: {x: -75, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1283171615}
   - {fileID: 63422896}
   - {fileID: 952792438}
   m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &26873768
 GameObject:
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 47998358}
   - component: {fileID: 47998357}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1563,10 +1563,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
+  offset_y_close_order: -30
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -30
+  offset_x_open_order: -5
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -1652,14 +1652,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47998356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -60}
+  m_LocalPosition: {x: -5, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1361609166}
   - {fileID: 411400957}
   - {fileID: 116175860}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &57904559
 GameObject:
@@ -2146,7 +2146,7 @@ GameObject:
   - component: {fileID: 63433793}
   - component: {fileID: 63433792}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2206,10 +2206,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: -40
+  offset_y_close_order: -5
+  offset_x_close_order: -20
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -90
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -2295,14 +2295,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63433791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -10}
+  m_LocalPosition: {x: -90, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1436846235}
   - {fileID: 1077433849}
   - {fileID: 641450444}
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &66674361
 GameObject:
@@ -2321,7 +2321,7 @@ GameObject:
   - component: {fileID: 66674363}
   - component: {fileID: 66674362}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2382,9 +2382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: -50
+  offset_x_close_order: -20
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -40
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -2470,14 +2470,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66674361}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: 0}
+  m_LocalPosition: {x: -40, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 964079740}
   - {fileID: 181952951}
   - {fileID: 1330285153}
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &67963625
 GameObject:
@@ -4075,123 +4075,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166963735}
   m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
---- !u!1 &167201356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4769571556265433392, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 167201357}
-  - component: {fileID: 167201361}
-  - component: {fileID: 167201360}
-  - component: {fileID: 167201359}
-  - component: {fileID: 167201358}
-  m_Layer: 0
-  m_Name: Gladius_sharp
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &167201357
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1446607075183790253, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167201356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.24, y: 0.11749995, z: 0.24}
-  m_LocalScale: {x: 7, y: 1.75, z: 7}
-  m_Children: []
-  m_Father: {fileID: 1012422077}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &167201358
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 601285784739175498, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167201356}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!64 &167201359
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4210023181083673673, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167201356}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
---- !u!23 &167201360
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5898207177595420251, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167201356}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 5f46ada773eaaf24e886fa422c645e08, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &167201361
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2949929818471077437, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167201356}
-  m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
 --- !u!1 &167817273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4677,7 +4560,7 @@ GameObject:
   - component: {fileID: 193235135}
   - component: {fileID: 193235134}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4737,9 +4620,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
+  offset_y_close_order: -20
   offset_x_close_order: 0
-  offset_y_open_order: 0
+  offset_y_open_order: -20
   offset_x_open_order: 0
   offset_y_testudo: 0
   offset_x_testudo: 0
@@ -4826,14 +4709,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193235133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -40}
+  m_LocalPosition: {x: 0, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 8797263}
   - {fileID: 485012645}
   - {fileID: 1800371845}
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201370550
 GameObject:
@@ -4852,7 +4735,7 @@ GameObject:
   - component: {fileID: 201370552}
   - component: {fileID: 201370551}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4912,10 +4795,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: -15
+  offset_y_open_order: -10
+  offset_x_open_order: -35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -5001,15 +4884,126 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201370550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -20}
+  m_LocalPosition: {x: -35, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1520032052}
   - {fileID: 1281329262}
   - {fileID: 370106189}
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &203384478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203384479}
+  - component: {fileID: 203384483}
+  - component: {fileID: 203384482}
+  - component: {fileID: 203384481}
+  - component: {fileID: 203384480}
+  m_Layer: 0
+  m_Name: Roman_imperial_helmet (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203384479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203384478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02999878, y: 0.88249993, z: 0.2539997}
+  m_LocalScale: {x: 7, y: 1.75, z: 7}
+  m_Children: []
+  m_Father: {fileID: 1731237598}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &203384480
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203384478}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &203384481
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203384478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
+--- !u!23 &203384482
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203384478}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 526bc835d3e8ba24b9434ee9b37fd250, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &203384483
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203384478}
+  m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
 --- !u!1 &205599076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,7 +5330,7 @@ GameObject:
   - component: {fileID: 218332608}
   - component: {fileID: 218332607}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5396,10 +5390,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: -15
+  offset_y_open_order: -30
+  offset_x_open_order: -85
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -5485,14 +5479,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218332606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -70}
+  m_LocalPosition: {x: -85, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 402345447}
   - {fileID: 1697072013}
   - {fileID: 1394904621}
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &226800816
 GameObject:
@@ -5745,7 +5739,7 @@ GameObject:
   - component: {fileID: 232621749}
   - component: {fileID: 232621748}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5805,10 +5799,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: 5
+  offset_y_open_order: -10
+  offset_x_open_order: 55
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -5894,14 +5888,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232621747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -30}
+  m_LocalPosition: {x: 55, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 853665162}
   - {fileID: 1073844801}
   - {fileID: 1567924379}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &237503062
 GameObject:
@@ -6388,7 +6382,7 @@ GameObject:
   - component: {fileID: 258554349}
   - component: {fileID: 258554348}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6449,9 +6443,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: -40
+  offset_x_close_order: -15
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -30
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -6537,14 +6531,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258554347}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: 0}
+  m_LocalPosition: {x: -30, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 2087661846}
   - {fileID: 1836345488}
   - {fileID: 417037942}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259732552
 GameObject:
@@ -6726,7 +6720,7 @@ GameObject:
   - component: {fileID: 276670963}
   - component: {fileID: 276670962}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6786,10 +6780,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: 5
+  offset_y_open_order: -30
+  offset_x_open_order: 55
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -6875,14 +6869,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276670961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -70}
+  m_LocalPosition: {x: 55, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 611489839}
   - {fileID: 60475489}
   - {fileID: 1954382634}
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &276848865
 PrefabInstance:
@@ -7210,7 +7204,7 @@ GameObject:
   - component: {fileID: 281325211}
   - component: {fileID: 281325210}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7270,10 +7264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: 10
+  offset_y_open_order: -30
+  offset_x_open_order: 15
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -7359,14 +7353,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281325209}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -60}
+  m_LocalPosition: {x: 15, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 861296712}
   - {fileID: 282428919}
   - {fileID: 312017886}
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &282019737
 GameObject:
@@ -8062,7 +8056,7 @@ GameObject:
   - component: {fileID: 310235807}
   - component: {fileID: 310235806}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8123,9 +8117,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: 10
+  offset_x_close_order: 5
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 10
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -8218,7 +8212,7 @@ Transform:
   - {fileID: 709723847}
   - {fileID: 738920358}
   m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &312017885
 GameObject:
@@ -8780,7 +8774,7 @@ GameObject:
   - component: {fileID: 361847513}
   - component: {fileID: 361847512}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8840,10 +8834,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: -20
+  offset_y_open_order: -20
+  offset_x_open_order: -40
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -8929,14 +8923,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361847511}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -40}
+  m_LocalPosition: {x: -40, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1874470031}
   - {fileID: 1665360590}
   - {fileID: 1407852223}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &366290270
 GameObject:
@@ -10125,7 +10119,7 @@ GameObject:
   - component: {fileID: 420930429}
   - component: {fileID: 420930428}
   m_Layer: 0
-  m_Name: Legionary (1)
+  m_Name: Legionary55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10185,10 +10179,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: -15
+  offset_y_open_order: -20
+  offset_x_open_order: -80
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -10274,14 +10268,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420930427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -50}
+  m_LocalPosition: {x: -80, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1878623857}
   - {fileID: 1920550524}
   - {fileID: 250342400}
   m_Father: {fileID: 0}
-  m_RootOrder: 90
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431893313
 GameObject:
@@ -10417,7 +10411,7 @@ GameObject:
   - component: {fileID: 444978414}
   - component: {fileID: 444978413}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10477,10 +10471,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: 40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: 20
+  offset_y_open_order: -30
+  offset_x_open_order: 35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -10566,14 +10560,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444978412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -60}
+  m_LocalPosition: {x: 35, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1970298749}
   - {fileID: 149932274}
   - {fileID: 1893866726}
   m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &447451122
 GameObject:
@@ -10592,7 +10586,7 @@ GameObject:
   - component: {fileID: 447451124}
   - component: {fileID: 447451123}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10652,10 +10646,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: 10
+  offset_y_open_order: -30
+  offset_x_open_order: 65
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -10741,14 +10735,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447451122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -70}
+  m_LocalPosition: {x: 65, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 491753408}
   - {fileID: 1704569322}
   - {fileID: 2006210101}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453654957
 GameObject:
@@ -10884,7 +10878,7 @@ GameObject:
   - component: {fileID: 454741365}
   - component: {fileID: 454741364}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10944,10 +10938,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: -25
+  offset_y_open_order: -10
+  offset_x_open_order: -55
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -11033,14 +11027,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454741363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -20}
+  m_LocalPosition: {x: -55, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1711766887}
   - {fileID: 1019875959}
   - {fileID: 660635711}
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &465953398
 GameObject:
@@ -11176,7 +11170,7 @@ GameObject:
   - component: {fileID: 475162188}
   - component: {fileID: 475162187}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11236,10 +11230,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: -10
+  offset_y_close_order: -5
+  offset_x_close_order: -5
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -60
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -11325,14 +11319,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475162186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -10}
+  m_LocalPosition: {x: -60, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 785180821}
   - {fileID: 278562759}
   - {fileID: 607097598}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485012644
 GameObject:
@@ -12128,7 +12122,7 @@ GameObject:
   - component: {fileID: 510783780}
   - component: {fileID: 510783779}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12188,10 +12182,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: 15
+  offset_y_open_order: -20
+  offset_x_open_order: 30
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -12277,14 +12271,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510783778}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -40}
+  m_LocalPosition: {x: 30, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1283050312}
   - {fileID: 131627101}
   - {fileID: 2060609988}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511968247
 GameObject:
@@ -12865,123 +12859,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533738349}
   m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
---- !u!1 &533880885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1580638464743720439, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 533880886}
-  - component: {fileID: 533880890}
-  - component: {fileID: 533880889}
-  - component: {fileID: 533880888}
-  - component: {fileID: 533880887}
-  m_Layer: 0
-  m_Name: Roman_scutum_shield
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &533880886
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7520547600057235455, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533880885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.65, y: 0.08249998, z: 1.39}
-  m_LocalScale: {x: 5, y: 1.25, z: 5}
-  m_Children: []
-  m_Father: {fileID: 1012422077}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &533880887
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 271215645999668761, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533880885}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!64 &533880888
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3686993256124461390, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533880885}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 2d2e782b896f8624b837b14df5a21b7f, type: 3}
---- !u!23 &533880889
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8723548319818332200, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533880885}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 25e599179e478984e9125b7df3c1a5db, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &533880890
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3469908600561147250, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533880885}
-  m_Mesh: {fileID: 4300000, guid: 2d2e782b896f8624b837b14df5a21b7f, type: 3}
 --- !u!1 &541201685
 GameObject:
   m_ObjectHideFlags: 0
@@ -13098,123 +12975,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541201685}
-  m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
---- !u!1 &551884479
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 630340204506066443, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 551884480}
-  - component: {fileID: 551884484}
-  - component: {fileID: 551884483}
-  - component: {fileID: 551884482}
-  - component: {fileID: 551884481}
-  m_Layer: 0
-  m_Name: Roman_imperial_helmet (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &551884480
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1589366154742293142, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551884479}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02999878, y: 0.88249993, z: 0.2539997}
-  m_LocalScale: {x: 7, y: 1.75, z: 7}
-  m_Children: []
-  m_Father: {fileID: 1012422077}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &551884481
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6470271596977900621, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551884479}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!64 &551884482
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6754712631828171930, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551884479}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
---- !u!23 &551884483
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1050049746266435640, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551884479}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 526bc835d3e8ba24b9434ee9b37fd250, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &551884484
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4352007315369383273, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551884479}
   m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
 --- !u!1 &566444109
 GameObject:
@@ -13350,7 +13110,7 @@ GameObject:
   - component: {fileID: 567828990}
   - component: {fileID: 567828989}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13410,10 +13170,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: 10
+  offset_y_open_order: 20
+  offset_x_open_order: -20
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -13499,14 +13259,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567828988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -40}
+  m_LocalPosition: {x: 20, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1128356938}
   - {fileID: 1775896389}
   - {fileID: 1545267096}
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569302887
 GameObject:
@@ -14302,7 +14062,7 @@ GameObject:
   - component: {fileID: 627178468}
   - component: {fileID: 627178467}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14362,10 +14122,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: 15
+  offset_y_open_order: -30
+  offset_x_open_order: 25
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -14451,14 +14211,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627178466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -60}
+  m_LocalPosition: {x: 25, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 2015971432}
   - {fileID: 248113835}
   - {fileID: 884664780}
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &631558741
 GameObject:
@@ -15138,7 +14898,7 @@ GameObject:
   - component: {fileID: 676995459}
   - component: {fileID: 676995458}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15199,9 +14959,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: 40
+  offset_x_close_order: 20
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 40
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -15294,7 +15054,7 @@ Transform:
   - {fileID: 328750254}
   - {fileID: 431893314}
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &678064321
 GameObject:
@@ -15313,7 +15073,7 @@ GameObject:
   - component: {fileID: 678064323}
   - component: {fileID: 678064322}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15373,10 +15133,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: 15
+  offset_y_open_order: -10
+  offset_x_open_order: 75
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -15462,14 +15222,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678064321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -30}
+  m_LocalPosition: {x: 75, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1770198548}
   - {fileID: 1951620160}
   - {fileID: 533738350}
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684220159
 GameObject:
@@ -16171,7 +15931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699158660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90.2, y: 4, z: -67}
+  m_LocalPosition: {x: 12.9, y: 4, z: -271}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 259732553}
@@ -17762,7 +17522,7 @@ GameObject:
   - component: {fileID: 788083565}
   - component: {fileID: 788083564}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17822,10 +17582,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: -25
+  offset_y_open_order: -20
+  offset_x_open_order: -100
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -17911,14 +17671,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788083563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -50}
+  m_LocalPosition: {x: -100, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1927872967}
   - {fileID: 382383615}
   - {fileID: 418182708}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &794497700
 PrefabInstance:
@@ -18012,7 +17772,7 @@ GameObject:
   - component: {fileID: 800713516}
   - component: {fileID: 800713515}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18073,9 +17833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: -20
+  offset_x_close_order: -10
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -20
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -18168,7 +17928,7 @@ Transform:
   - {fileID: 369649411}
   - {fileID: 1650413967}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &808078414
 GameObject:
@@ -18772,7 +18532,7 @@ GameObject:
   - component: {fileID: 864873294}
   - component: {fileID: 864873293}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18832,10 +18592,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: -10
+  offset_y_open_order: -10
+  offset_x_open_order: -25
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -18921,14 +18681,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864873292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -20}
+  m_LocalPosition: {x: -25, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 2023890242}
   - {fileID: 1081505488}
   - {fileID: 67963626}
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879485229
 GameObject:
@@ -19294,9 +19054,9 @@ GameObject:
   - component: {fileID: 886200445}
   - component: {fileID: 886200444}
   - component: {fileID: 886200443}
+  - component: {fileID: 886200440}
   - component: {fileID: 886200442}
   - component: {fileID: 886200441}
-  - component: {fileID: 886200440}
   m_Layer: 0
   m_Name: Optio
   m_TagString: Untagged
@@ -19318,10 +19078,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -80
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -40
+  offset_x_close_order: -10
+  offset_y_open_order: -40
+  offset_x_open_order: -35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -19447,7 +19207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886200439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -80}
+  m_LocalPosition: {x: -35, y: 4, z: -40}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 278795403}
@@ -19825,7 +19585,7 @@ GameObject:
   - component: {fileID: 899502013}
   - component: {fileID: 899502012}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19885,10 +19645,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: 40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: 20
+  offset_y_open_order: -20
+  offset_x_open_order: 90
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -19974,14 +19734,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899502011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -50}
+  m_LocalPosition: {x: 90, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1787305907}
   - {fileID: 213696381}
   - {fileID: 698432733}
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901150018
 GameObject:
@@ -20182,7 +19942,7 @@ GameObject:
   - component: {fileID: 904767471}
   - component: {fileID: 904767470}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20243,9 +20003,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: 20
+  offset_x_close_order: 10
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 20
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -20338,7 +20098,7 @@ Transform:
   - {fileID: 1140798388}
   - {fileID: 1374915123}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910182314
 GameObject:
@@ -20474,7 +20234,7 @@ GameObject:
   - component: {fileID: 914829322}
   - component: {fileID: 914829321}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20534,10 +20294,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: -5
+  offset_y_open_order: -10
+  offset_x_open_order: -15
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -20623,14 +20383,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914829320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -20}
+  m_LocalPosition: {x: -15, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 754467335}
   - {fileID: 2062417411}
   - {fileID: 1021882091}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940232047
 GameObject:
@@ -21318,7 +21078,7 @@ GameObject:
   - component: {fileID: 964852455}
   - component: {fileID: 964852454}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21378,10 +21138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: 15
+  offset_y_open_order: -10
+  offset_x_open_order: 35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -21467,14 +21227,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964852453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -20}
+  m_LocalPosition: {x: 35, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1847515420}
   - {fileID: 1704072597}
   - {fileID: 1476896459}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &966531657
 PrefabInstance:
@@ -21568,7 +21328,7 @@ GameObject:
   - component: {fileID: 976675852}
   - component: {fileID: 976675851}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21628,10 +21388,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: 5
+  offset_y_open_order: -20
+  offset_x_open_order: 10
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -21717,14 +21477,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976675850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -40}
+  m_LocalPosition: {x: 10, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1701148120}
   - {fileID: 727410231}
   - {fileID: 297446059}
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &989314789
 GameObject:
@@ -22211,7 +21971,7 @@ GameObject:
   - component: {fileID: 1010896639}
   - component: {fileID: 1010896638}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22271,10 +22031,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: 40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: 20
+  offset_y_open_order: -20
+  offset_x_open_order: 40
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -22360,14 +22120,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010896637}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -40}
+  m_LocalPosition: {x: 40, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 954852351}
   - {fileID: 1444304776}
   - {fileID: 2145652156}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1012058122
 GameObject:
@@ -22486,181 +22246,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012058122}
   m_Mesh: {fileID: 4300000, guid: 2d2e782b896f8624b837b14df5a21b7f, type: 3}
---- !u!1 &1012422070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3808864157810150926, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1012422077}
-  - component: {fileID: 1012422076}
-  - component: {fileID: 1012422075}
-  - component: {fileID: 1012422074}
-  - component: {fileID: 1012422073}
-  - component: {fileID: 1012422072}
-  - component: {fileID: 1012422071}
-  m_Layer: 0
-  m_Name: Legionary
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!195 &1012422071
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 945737913192086579, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5000001
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!54 &1012422072
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 290785034909936386, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1012422073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6800608546719598847, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2cb0b41cff3d848a3d855132fc819d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  centurion: {fileID: 1103230497}
-  offset_y_close_order: 0
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
-  offset_y_testudo: 0
-  offset_x_testudo: 0
-  offset_y_orbis: 0
-  offset_x_orbis: 0
-  angle_orbis: 0
-  offset_y_cuneus: 0
-  offset_x_cuneus: 0
-  pos: {x: 0, y: 0, z: 0}
-  rotationOrbis: 0
-  groupOrbis: 0
-  groupCuneus: 0
-  formation: 0
---- !u!136 &1012422074
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5403402521344775181, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &1012422075
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6534277142578191996, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 36d08b6e5c549ef4f80c8ecb4ff8bb24, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1012422076
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8541904146332835313, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1012422077
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7726866126286992186, guid: 1f5eb053f614b7d4d9db1f3d7fb86204,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012422070}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: 0}
-  m_LocalScale: {x: 1, y: 4, z: 1}
-  m_Children:
-  - {fileID: 167201357}
-  - {fileID: 533880886}
-  - {fileID: 551884480}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1018836737
 GameObject:
   m_ObjectHideFlags: 0
@@ -22678,7 +22263,7 @@ GameObject:
   - component: {fileID: 1018836739}
   - component: {fileID: 1018836738}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22738,10 +22323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: -5
+  offset_y_open_order: -30
+  offset_x_open_order: -15
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -22827,14 +22412,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018836737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -60}
+  m_LocalPosition: {x: -15, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 2135694889}
   - {fileID: 62856510}
   - {fileID: 690841664}
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019875958
 GameObject:
@@ -23555,7 +23140,7 @@ GameObject:
   - component: {fileID: 1033564988}
   - component: {fileID: 1033564987}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23615,10 +23200,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: -15
+  offset_y_open_order: -30
+  offset_x_open_order: -35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -23704,14 +23289,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033564986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -60}
+  m_LocalPosition: {x: -35, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1966683776}
   - {fileID: 569302888}
   - {fileID: 1396793037}
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039111196
 GameObject:
@@ -23730,7 +23315,7 @@ GameObject:
   - component: {fileID: 1039111198}
   - component: {fileID: 1039111197}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23790,10 +23375,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: -15
+  offset_y_open_order: -20
+  offset_x_open_order: -30
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -23879,14 +23464,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039111196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -40}
+  m_LocalPosition: {x: -30, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1993099386}
   - {fileID: 21311006}
   - {fileID: 1251301892}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043093469
 GameObject:
@@ -24022,7 +23607,7 @@ GameObject:
   - component: {fileID: 1050469552}
   - component: {fileID: 1050469551}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24082,10 +23667,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: -5
+  offset_y_open_order: -20
+  offset_x_open_order: -60
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -24171,14 +23756,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050469550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -50}
+  m_LocalPosition: {x: -60, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1709741153}
   - {fileID: 255995606}
   - {fileID: 1655162823}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1059076031
 GameObject:
@@ -24197,7 +23782,7 @@ GameObject:
   - component: {fileID: 1059076033}
   - component: {fileID: 1059076032}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24258,9 +23843,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: 30
+  offset_x_close_order: 15
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 30
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -24353,7 +23938,7 @@ Transform:
   - {fileID: 15976242}
   - {fileID: 835454039}
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067685106
 GameObject:
@@ -25191,7 +24776,7 @@ GameObject:
   - component: {fileID: 1099997995}
   - component: {fileID: 1099997994}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25251,10 +24836,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: -20
+  offset_y_close_order: -5
+  offset_x_close_order: -10
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -70
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -25340,14 +24925,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099997993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -10}
+  m_LocalPosition: {x: -70, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 585303579}
   - {fileID: 1342911148}
   - {fileID: 1989996673}
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103230496
 GameObject:
@@ -25658,7 +25243,7 @@ GameObject:
   - component: {fileID: 1111253977}
   - component: {fileID: 1111253976}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25718,10 +25303,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: -20
+  offset_y_open_order: -30
+  offset_x_open_order: -95
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -25807,14 +25392,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111253975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -70}
+  m_LocalPosition: {x: -95, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1568359211}
   - {fileID: 1602324835}
   - {fileID: 541201686}
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120405385
 GameObject:
@@ -26637,7 +26222,7 @@ GameObject:
   - component: {fileID: 1156805322}
   - component: {fileID: 1156805321}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26697,10 +26282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: 20
+  offset_y_close_order: -5
+  offset_x_close_order: 10
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 60
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -26786,14 +26371,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156805320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -10}
+  m_LocalPosition: {x: 60, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 21406421}
   - {fileID: 293536773}
   - {fileID: 786556652}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1179711008
 GameObject:
@@ -26812,7 +26397,7 @@ GameObject:
   - component: {fileID: 1179711010}
   - component: {fileID: 1179711009}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26872,10 +26457,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: -25
+  offset_y_open_order: -30
+  offset_x_open_order: -105
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -26961,14 +26546,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179711008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -70}
+  m_LocalPosition: {x: -105, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 494724302}
   - {fileID: 465953399}
   - {fileID: 1531671880}
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189701028
 GameObject:
@@ -26987,7 +26572,7 @@ GameObject:
   - component: {fileID: 1189701030}
   - component: {fileID: 1189701029}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27047,10 +26632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: -20
+  offset_y_open_order: -10
+  offset_x_open_order: -95
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -27136,14 +26721,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189701028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -30}
+  m_LocalPosition: {x: -95, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 95435483}
   - {fileID: 1224876250}
   - {fileID: 237503063}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207849061
 GameObject:
@@ -27513,7 +27098,7 @@ GameObject:
   - component: {fileID: 1235256497}
   - component: {fileID: 1235256496}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27573,10 +27158,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: 10
+  offset_y_open_order: -10
+  offset_x_open_order: 25
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -27662,14 +27247,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235256495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -20}
+  m_LocalPosition: {x: 25, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 946747010}
   - {fileID: 684220160}
   - {fileID: 857318184}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1236691287
 GameObject:
@@ -28039,7 +27624,7 @@ GameObject:
   - component: {fileID: 1254613772}
   - component: {fileID: 1254613771}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28099,10 +27684,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: 15
+  offset_y_open_order: -30
+  offset_x_open_order: 75
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -28188,14 +27773,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254613770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -70}
+  m_LocalPosition: {x: 75, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1790679961}
   - {fileID: 989314790}
   - {fileID: 2046413333}
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265397806
 GameObject:
@@ -28633,7 +28218,7 @@ GameObject:
   - component: {fileID: 1277033117}
   - component: {fileID: 1277033116}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28693,10 +28278,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: 10
+  offset_y_open_order: -10
+  offset_x_open_order: 65
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -28782,14 +28367,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277033115}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -30}
+  m_LocalPosition: {x: 65, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 166963736}
   - {fileID: 910182315}
   - {fileID: 226800817}
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279898876
 GameObject:
@@ -29340,9 +28925,9 @@ GameObject:
   - component: {fileID: 1298014381}
   - component: {fileID: 1298014380}
   - component: {fileID: 1298014379}
+  - component: {fileID: 1298014376}
   - component: {fileID: 1298014378}
   - component: {fileID: 1298014377}
-  - component: {fileID: 1298014376}
   m_Layer: 0
   m_Name: Tesserarius
   m_TagString: Untagged
@@ -29364,10 +28949,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -80
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -40
+  offset_x_close_order: 10
+  offset_y_open_order: -40
+  offset_x_open_order: 35
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -29493,7 +29078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298014375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -80}
+  m_LocalPosition: {x: 35, y: 4, z: -40}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 642293922}
@@ -29520,7 +29105,7 @@ GameObject:
   - component: {fileID: 1299300758}
   - component: {fileID: 1299300757}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29580,10 +29165,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: 5
+  offset_y_open_order: -20
+  offset_x_open_order: 60
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -29669,14 +29254,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299300756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -50}
+  m_LocalPosition: {x: 60, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1007128743}
   - {fileID: 1207849062}
   - {fileID: 511968248}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302954104
 GameObject:
@@ -29695,7 +29280,7 @@ GameObject:
   - component: {fileID: 1302954106}
   - component: {fileID: 1302954105}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29755,10 +29340,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: -10
+  offset_y_open_order: -20
+  offset_x_open_order: -70
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -29844,14 +29429,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302954104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -50}
+  m_LocalPosition: {x: -70, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1310361332}
   - {fileID: 2066816925}
   - {fileID: 1721674731}
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310361331
 GameObject:
@@ -29987,7 +29572,7 @@ GameObject:
   - component: {fileID: 1324998234}
   - component: {fileID: 1324998233}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30047,10 +29632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: -20
+  offset_y_open_order: -20
+  offset_x_open_order: -90
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -30136,14 +29721,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324998232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -50}
+  m_LocalPosition: {x: -90, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 518191942}
   - {fileID: 1270962192}
   - {fileID: 1376802602}
   m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1330285152
 GameObject:
@@ -30707,6 +30292,117 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361609165}
   m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
+--- !u!1 &1365143522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1365143523}
+  - component: {fileID: 1365143527}
+  - component: {fileID: 1365143526}
+  - component: {fileID: 1365143525}
+  - component: {fileID: 1365143524}
+  m_Layer: 0
+  m_Name: Roman_scutum_shield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1365143523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365143522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.65, y: 0.08249998, z: 1.39}
+  m_LocalScale: {x: 5, y: 1.25, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1731237598}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1365143524
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365143522}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1365143525
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365143522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2d2e782b896f8624b837b14df5a21b7f, type: 3}
+--- !u!23 &1365143526
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365143522}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 25e599179e478984e9125b7df3c1a5db, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1365143527
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365143522}
+  m_Mesh: {fileID: 4300000, guid: 2d2e782b896f8624b837b14df5a21b7f, type: 3}
 --- !u!1 &1374193439
 GameObject:
   m_ObjectHideFlags: 0
@@ -32359,7 +32055,7 @@ GameObject:
   - component: {fileID: 1445280177}
   - component: {fileID: 1445280176}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32419,10 +32115,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: 10
+  offset_y_close_order: -5
+  offset_x_close_order: 5
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 50
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -32508,14 +32204,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445280175}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -10}
+  m_LocalPosition: {x: 50, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 360329922}
   - {fileID: 566444110}
   - {fileID: 205599077}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449741096
 GameObject:
@@ -32651,7 +32347,7 @@ GameObject:
   - component: {fileID: 1454963569}
   - component: {fileID: 1454963568}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32711,10 +32407,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
+  offset_y_close_order: -35
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -30
+  offset_x_open_order: 45
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -32800,14 +32496,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454963567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -70}
+  m_LocalPosition: {x: 45, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 894816592}
   - {fileID: 999256033}
   - {fileID: 2073569386}
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472113088
 GameObject:
@@ -32826,7 +32522,7 @@ GameObject:
   - component: {fileID: 1472113090}
   - component: {fileID: 1472113089}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32886,10 +32582,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: 20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: 10
+  offset_y_open_order: -20
+  offset_x_open_order: 70
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -32975,14 +32671,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472113088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 4, z: -50}
+  m_LocalPosition: {x: 70, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1107639042}
   - {fileID: 1081123766}
   - {fileID: 742521625}
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476607935
 GameObject:
@@ -33001,7 +32697,7 @@ GameObject:
   - component: {fileID: 1476607937}
   - component: {fileID: 1476607936}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33061,10 +32757,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: -10
+  offset_y_open_order: -20
+  offset_x_open_order: -20
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -33150,14 +32846,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476607935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -40}
+  m_LocalPosition: {x: -20, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1742775174}
   - {fileID: 167817274}
   - {fileID: 605788327}
   m_Father: {fileID: 0}
-  m_RootOrder: 89
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476896458
 GameObject:
@@ -33619,7 +33315,7 @@ GameObject:
   - component: {fileID: 1519329505}
   - component: {fileID: 1519329504}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33679,10 +33375,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: -5
+  offset_y_open_order: -30
+  offset_x_open_order: -65
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -33768,14 +33464,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519329503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -70}
+  m_LocalPosition: {x: -65, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1918740607}
   - {fileID: 1786028510}
   - {fileID: 366290271}
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1520032051
 GameObject:
@@ -34145,7 +33841,7 @@ GameObject:
   - component: {fileID: 1543174395}
   - component: {fileID: 1543174394}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34205,10 +33901,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
-  offset_x_close_order: 30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -25
+  offset_x_close_order: 15
+  offset_y_open_order: -20
+  offset_x_open_order: 80
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -34294,14 +33990,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543174393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -50}
+  m_LocalPosition: {x: 80, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 105518563}
   - {fileID: 1090935045}
   - {fileID: 94774421}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1545267095
 GameObject:
@@ -34437,7 +34133,7 @@ GameObject:
   - component: {fileID: 1547993298}
   - component: {fileID: 1547993297}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34497,10 +34193,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
+  offset_y_close_order: -15
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -10
+  offset_x_open_order: 45
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -34586,14 +34282,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547993296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -30}
+  m_LocalPosition: {x: 45, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 989397035}
   - {fileID: 2054639160}
   - {fileID: 1408538683}
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1559880375
 GameObject:
@@ -34612,7 +34308,7 @@ GameObject:
   - component: {fileID: 1559880377}
   - component: {fileID: 1559880376}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34672,10 +34368,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: -30
+  offset_y_close_order: -5
+  offset_x_close_order: -15
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -80
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -34761,14 +34457,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559880375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -10}
+  m_LocalPosition: {x: -80, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 228994173}
   - {fileID: 1910705128}
   - {fileID: 1374193440}
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1563741276
 GameObject:
@@ -35695,7 +35391,7 @@ GameObject:
   - component: {fileID: 1608991285}
   - component: {fileID: 1608991284}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35755,10 +35451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: 10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: 5
+  offset_y_open_order: -10
+  offset_x_open_order: 15
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -35844,15 +35540,126 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608991283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -20}
+  m_LocalPosition: {x: 15, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 2106096388}
   - {fileID: 1816727516}
   - {fileID: 346360620}
   m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1609501316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609501317}
+  - component: {fileID: 1609501321}
+  - component: {fileID: 1609501320}
+  - component: {fileID: 1609501319}
+  - component: {fileID: 1609501318}
+  m_Layer: 0
+  m_Name: Gladius_sharp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1609501317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609501316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.24, y: 0.11749995, z: 0.24}
+  m_LocalScale: {x: 7, y: 1.75, z: 7}
+  m_Children: []
+  m_Father: {fileID: 1731237598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1609501318
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609501316}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1609501319
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609501316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
+--- !u!23 &1609501320
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609501316}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5f46ada773eaaf24e886fa422c645e08, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1609501321
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609501316}
+  m_Mesh: {fileID: 4300000, guid: 75e624bbc0635994fa8a2d6483905f95, type: 3}
 --- !u!1 &1612959910
 GameObject:
   m_ObjectHideFlags: 0
@@ -35870,7 +35677,7 @@ GameObject:
   - component: {fileID: 1612959912}
   - component: {fileID: 1612959911}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35930,10 +35737,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: -10
+  offset_y_open_order: -30
+  offset_x_open_order: -75
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -36019,14 +35826,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612959910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -70}
+  m_LocalPosition: {x: -75, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1350730157}
   - {fileID: 1644047418}
   - {fileID: 640609266}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1618138667
 GameObject:
@@ -36045,7 +35852,7 @@ GameObject:
   - component: {fileID: 1618138669}
   - component: {fileID: 1618138668}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36105,10 +35912,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: -20
+  offset_y_open_order: -30
+  offset_x_open_order: -45
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -36194,14 +36001,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618138667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -60}
+  m_LocalPosition: {x: -45, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 578328469}
   - {fileID: 2025011704}
   - {fileID: 713271890}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1644047417
 GameObject:
@@ -36837,7 +36644,7 @@ GameObject:
   - component: {fileID: 1667423484}
   - component: {fileID: 1667423483}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36897,10 +36704,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: -30
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: -15
+  offset_y_open_order: -10
+  offset_x_open_order: -85
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -36986,14 +36793,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667423482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 4, z: -30}
+  m_LocalPosition: {x: -85, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1790918872}
   - {fileID: 504897481}
   - {fileID: 1534867143}
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1668312402
 GameObject:
@@ -37012,7 +36819,7 @@ GameObject:
   - component: {fileID: 1668312404}
   - component: {fileID: 1668312403}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37072,10 +36879,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: -20
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: -10
+  offset_y_open_order: -30
+  offset_x_open_order: -25
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -37161,14 +36968,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668312402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: 4, z: -60}
+  m_LocalPosition: {x: -25, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 879836074}
   - {fileID: 414649709}
   - {fileID: 18370886}
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697072012
 GameObject:
@@ -38181,6 +37988,173 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721674730}
   m_Mesh: {fileID: 4300000, guid: 83aff8644e9226243b6e8d4da7799c26, type: 3}
+--- !u!1 &1731237591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1731237598}
+  - component: {fileID: 1731237597}
+  - component: {fileID: 1731237596}
+  - component: {fileID: 1731237595}
+  - component: {fileID: 1731237594}
+  - component: {fileID: 1731237593}
+  - component: {fileID: 1731237592}
+  m_Layer: 0
+  m_Name: Legionary17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!195 &1731237592
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5000001
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!54 &1731237593
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1731237594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2cb0b41cff3d848a3d855132fc819d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centurion: {fileID: 1103230497}
+  offset_y_close_order: -5
+  offset_x_close_order: -25
+  offset_y_open_order: 0
+  offset_x_open_order: -100
+  offset_y_testudo: 0
+  offset_x_testudo: 0
+  offset_y_orbis: 0
+  offset_x_orbis: 0
+  angle_orbis: 0
+  offset_y_cuneus: 0
+  offset_x_cuneus: 0
+  pos: {x: 0, y: 0, z: 0}
+  rotationOrbis: 0
+  groupOrbis: 0
+  groupCuneus: 0
+  formation: 0
+--- !u!136 &1731237595
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &1731237596
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36d08b6e5c549ef4f80c8ecb4ff8bb24, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1731237597
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1731237598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731237591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_Children:
+  - {fileID: 1609501317}
+  - {fileID: 1365143523}
+  - {fileID: 203384479}
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735757937
 GameObject:
   m_ObjectHideFlags: 0
@@ -38198,7 +38172,7 @@ GameObject:
   - component: {fileID: 1735757939}
   - component: {fileID: 1735757938}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38258,10 +38232,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
+  offset_y_close_order: -10
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -10
+  offset_x_open_order: 5
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -38347,14 +38321,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735757937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -20}
+  m_LocalPosition: {x: 5, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1422637032}
   - {fileID: 895296503}
   - {fileID: 1977423134}
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742775173
 GameObject:
@@ -39418,7 +39392,7 @@ GameObject:
   - component: {fileID: 1798339368}
   - component: {fileID: 1798339367}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39478,10 +39452,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: -25
+  offset_y_open_order: -10
+  offset_x_open_order: -105
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -39567,14 +39541,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798339366}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -30}
+  m_LocalPosition: {x: -105, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1077298331}
   - {fileID: 1220980351}
   - {fileID: 1593011083}
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800371844
 GameObject:
@@ -40111,7 +40085,7 @@ GameObject:
   - component: {fileID: 1825252437}
   - component: {fileID: 1825252436}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40171,10 +40145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: 40
+  offset_y_close_order: -5
+  offset_x_close_order: 20
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 80
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -40260,14 +40234,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825252435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -10}
+  m_LocalPosition: {x: 80, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1236691288}
   - {fileID: 1449741097}
   - {fileID: 1026535795}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836345487
 GameObject:
@@ -40754,7 +40728,7 @@ GameObject:
   - component: {fileID: 1882818591}
   - component: {fileID: 1882818590}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40814,10 +40788,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -60
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -30
+  offset_x_close_order: -25
+  offset_y_open_order: -30
+  offset_x_open_order: -55
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -40903,14 +40877,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882818589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -60}
+  m_LocalPosition: {x: -55, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1943155720}
   - {fileID: 28508721}
   - {fileID: 692526299}
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1885323674
 GameObject:
@@ -40929,7 +40903,7 @@ GameObject:
   - component: {fileID: 1885323676}
   - component: {fileID: 1885323675}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40989,10 +40963,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: -50
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: -25
+  offset_y_open_order: -20
+  offset_x_open_order: -50
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -41078,14 +41052,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885323674}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -40}
+  m_LocalPosition: {x: -50, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1704178971}
   - {fileID: 57904560}
   - {fileID: 702549240}
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1893866725
 GameObject:
@@ -41338,7 +41312,7 @@ GameObject:
   - component: {fileID: 1905676519}
   - component: {fileID: 1905676518}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41398,10 +41372,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -70
-  offset_x_close_order: 40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -35
+  offset_x_close_order: 20
+  offset_y_open_order: -30
+  offset_x_open_order: 85
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -41487,14 +41461,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905676517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -70}
+  m_LocalPosition: {x: 85, y: 4, z: -30}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 808078415}
   - {fileID: 76988767}
   - {fileID: 1405681362}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1910705127
 GameObject:
@@ -41630,7 +41604,7 @@ GameObject:
   - component: {fileID: 1917744063}
   - component: {fileID: 1917744062}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41690,10 +41664,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: -50
+  offset_y_close_order: 0
+  offset_x_close_order: -25
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -50
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -41779,14 +41753,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917744061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50, y: 4, z: -10}
+  m_LocalPosition: {x: -50, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1579838469}
   - {fileID: 39747148}
   - {fileID: 74622103}
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1918740606
 GameObject:
@@ -42152,9 +42126,9 @@ GameObject:
   - component: {fileID: 1937497284}
   - component: {fileID: 1937497283}
   - component: {fileID: 1937497282}
+  - component: {fileID: 1937497279}
   - component: {fileID: 1937497281}
   - component: {fileID: 1937497280}
-  - component: {fileID: 1937497279}
   m_Layer: 0
   m_Name: Aquilifer
   m_TagString: Untagged
@@ -42177,9 +42151,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
   offset_y_close_order: 0
-  offset_x_close_order: -10
+  offset_x_close_order: -5
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: -10
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -42333,7 +42307,7 @@ GameObject:
   - component: {fileID: 1940808588}
   - component: {fileID: 1940808587}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42393,10 +42367,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -40
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -20
+  offset_x_close_order: -5
+  offset_y_open_order: -20
+  offset_x_open_order: -10
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -42482,14 +42456,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940808586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -40}
+  m_LocalPosition: {x: -10, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1563741277}
   - {fileID: 1067685107}
   - {fileID: 1124475559}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1943155719
 GameObject:
@@ -43210,7 +43184,7 @@ GameObject:
   - component: {fileID: 1978200284}
   - component: {fileID: 1978200283}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43270,10 +43244,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
-  offset_x_close_order: 30
+  offset_y_close_order: -5
+  offset_x_close_order: 15
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 70
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -43359,14 +43333,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978200282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 4, z: -10}
+  m_LocalPosition: {x: 70, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 734098040}
   - {fileID: 1028025525}
   - {fileID: 1021260492}
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1980351705
 GameObject:
@@ -44279,7 +44253,7 @@ GameObject:
   - component: {fileID: 2030903769}
   - component: {fileID: 2030903768}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44339,10 +44313,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: 40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: 20
+  offset_y_open_order: -10
+  offset_x_open_order: 85
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -44428,14 +44402,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030903767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -30}
+  m_LocalPosition: {x: 85, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 376256603}
   - {fileID: 897187432}
   - {fileID: 498662034}
   m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046413332
 GameObject:
@@ -44801,9 +44775,9 @@ GameObject:
   - component: {fileID: 2061408007}
   - component: {fileID: 2061408006}
   - component: {fileID: 2061408005}
+  - component: {fileID: 2061408002}
   - component: {fileID: 2061408004}
   - component: {fileID: 2061408003}
-  - component: {fileID: 2061408002}
   m_Layer: 0
   m_Name: Trumpeter
   m_TagString: Untagged
@@ -44825,10 +44799,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -10
+  offset_y_close_order: -5
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -10
+  offset_x_open_order: -5
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -44954,7 +44928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061408001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -10}
+  m_LocalPosition: {x: -5, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1290508809}
@@ -45215,7 +45189,7 @@ GameObject:
   - component: {fileID: 2067122740}
   - component: {fileID: 2067122739}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45275,10 +45249,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -30
-  offset_x_close_order: -10
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -15
+  offset_x_close_order: -5
+  offset_y_open_order: -10
+  offset_x_open_order: -65
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -45364,14 +45338,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067122738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 4, z: -30}
+  m_LocalPosition: {x: -65, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 173075289}
   - {fileID: 1043093470}
   - {fileID: 1601067938}
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073569385
 GameObject:
@@ -46026,7 +46000,7 @@ GameObject:
   - component: {fileID: 2099611907}
   - component: {fileID: 2099611906}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46086,10 +46060,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: 40
+  offset_y_close_order: -10
+  offset_x_close_order: 20
   offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_x_open_order: 90
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -46175,14 +46149,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099611905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 4, z: -20}
+  m_LocalPosition: {x: 90, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 1265901641}
   - {fileID: 1651239241}
   - {fileID: 490822266}
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2106096387
 GameObject:
@@ -46393,7 +46367,7 @@ GameObject:
   - component: {fileID: 2108285154}
   - component: {fileID: 2108285153}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46453,10 +46427,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -20
-  offset_x_close_order: -40
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_close_order: -10
+  offset_x_close_order: -20
+  offset_y_open_order: -10
+  offset_x_open_order: -45
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -46542,14 +46516,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108285152}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 4, z: -20}
+  m_LocalPosition: {x: -45, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 293973524}
   - {fileID: 453654958}
   - {fileID: 1120405386}
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2115676127
 GameObject:
@@ -46685,7 +46659,7 @@ GameObject:
   - component: {fileID: 2129830585}
   - component: {fileID: 2129830584}
   m_Layer: 0
-  m_Name: Legionary
+  m_Name: Legionary52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46745,10 +46719,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 1103230497}
-  offset_y_close_order: -50
+  offset_y_close_order: -25
   offset_x_close_order: 0
-  offset_y_open_order: 0
-  offset_x_open_order: 0
+  offset_y_open_order: -20
+  offset_x_open_order: 50
   offset_y_testudo: 0
   offset_x_testudo: 0
   offset_y_orbis: 0
@@ -46834,14 +46808,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129830583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -50}
+  m_LocalPosition: {x: 50, y: 4, z: -20}
   m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children:
   - {fileID: 27986161}
   - {fileID: 1895654608}
   - {fileID: 2115676128}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135694888
 GameObject:
