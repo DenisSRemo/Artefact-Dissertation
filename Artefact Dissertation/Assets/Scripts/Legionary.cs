@@ -15,6 +15,7 @@ public class Legionary : agent
 
     [SerializeField] private float offset_y_testudo;
     [SerializeField] private float offset_x_testudo;
+    [SerializeField] private int rank_testudo;
 
     [SerializeField] private float offset_y_orbis;
     [SerializeField] private float offset_x_orbis;
@@ -25,7 +26,7 @@ public class Legionary : agent
 
     public Vector3 pos;
 
-    
+    public Animator animator;
 
 
  
@@ -136,6 +137,47 @@ public class Legionary : agent
                                                               centurion.angle,
                                                               transform.localEulerAngles.z);
 
+
+            if (gameObject.tag == "Tesserarius")
+            {
+                animator.SetBool("testudo_tesserarius", true);
+            }
+            else
+            if (gameObject.tag == "Optio")
+            {
+                animator.SetBool("testudo_optio", true);
+            }
+            else
+            if (gameObject.tag == "Aquilifer")
+            {
+                animator.SetBool("testudo_aquilifer", true);
+            }
+            else
+            if (gameObject.tag == "Trumpeter")
+            {
+                animator.SetBool("testudo_trumpeter", true);
+            }
+            else
+            if (gameObject.tag == "Legionary")
+            {
+                if (rank_testudo == 1)
+                    animator.SetBool("testudo1", true);
+                if (rank_testudo == 2)
+                    animator.SetBool("testudo2", true);
+                if (rank_testudo == 3)
+                    animator.SetBool("testudo3", true);
+            }
+
+        }
+        else
+        {
+            animator.SetBool("testudo_tesserarius", false);
+            animator.SetBool("testudo_optio", false);
+            animator.SetBool("testudo_aquilifer", false);
+            animator.SetBool("testudo_trumpeter", false);
+            animator.SetBool("testudo1", false);
+            animator.SetBool("testudo2", false);
+            animator.SetBool("testudo3", false);
         }
         // Testudo();
         if (formation == Formation.Orbis)
@@ -156,6 +198,11 @@ public class Legionary : agent
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                               centurion.angle+angle_orbis,
                                                               transform.localEulerAngles.z);
+
+
+           
+
+
         }
            // Orbis();
         if (formation == Formation.Cuneus)
