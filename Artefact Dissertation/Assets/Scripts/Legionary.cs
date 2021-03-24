@@ -137,37 +137,43 @@ public class Legionary : agent
                                                               centurion.angle,
                                                               transform.localEulerAngles.z);
 
-
-            if (gameObject.tag == "Tesserarius")
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
             {
-                animator.SetBool("testudo_tesserarius", true);
-            }
-            else
+
+
+                if (gameObject.tag == "Tesserarius")
+                {
+                    animator.SetBool("testudo_tesserarius", true);
+                }
+                else
             if (gameObject.tag == "Optio")
-            {
-                animator.SetBool("testudo_optio", true);
-            }
-            else
+                {
+                    animator.SetBool("testudo_optio", true);
+                }
+                else
             if (gameObject.tag == "Aquilifer")
-            {
-                animator.SetBool("testudo_aquilifer", true);
-            }
-            else
+                {
+                    animator.SetBool("testudo_aquilifer", true);
+                }
+                else
             if (gameObject.tag == "Trumpeter")
-            {
-                animator.SetBool("testudo_trumpeter", true);
-            }
-            else
+                {
+                    animator.SetBool("testudo_trumpeter", true);
+                }
+                else
             if (gameObject.tag == "Legionary")
-            {
-                if (rank_testudo == 1)
-                    animator.SetBool("testudo1", true);
-                if (rank_testudo == 2)
-                    animator.SetBool("testudo2", true);
-                if (rank_testudo == 3)
-                    animator.SetBool("testudo3", true);
-            }
+                {
+                    if (rank_testudo == 1)
+                        animator.SetBool("testudo1", true);
+                    if (rank_testudo == 2)
+                        animator.SetBool("testudo2", true);
+                    if (rank_testudo == 3)
+                        animator.SetBool("testudo3", true);
+                }
 
+
+                transform.localScale = new Vector3(transform.localScale.x, 2.5f, transform.localScale.z);
+            }
         }
         else
         {
@@ -178,6 +184,7 @@ public class Legionary : agent
             animator.SetBool("testudo1", false);
             animator.SetBool("testudo2", false);
             animator.SetBool("testudo3", false);
+            transform.localScale = new Vector3(transform.localScale.x, 4f, transform.localScale.z);
         }
         // Testudo();
         if (formation == Formation.Orbis)
