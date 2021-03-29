@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 2194614397480379238}
   - component: {fileID: 2194614397480379239}
   - component: {fileID: 2194614397480379236}
+  - component: {fileID: 8794299525072435389}
   - component: {fileID: 2668768417172057870}
   m_Layer: 0
   m_Name: Barbarian_Chieftain
@@ -144,6 +145,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &8794299525072435389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2194614397480379237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d105f124cc328346b8f6344d9238543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &2668768417172057870
 Rigidbody:
   m_ObjectHideFlags: 0

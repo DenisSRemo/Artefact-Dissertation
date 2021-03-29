@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             startPosition = Input.mousePosition;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
             Vector3 mouseDelta = Input.mousePosition - startPosition;
 

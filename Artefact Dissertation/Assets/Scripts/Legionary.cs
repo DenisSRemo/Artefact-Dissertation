@@ -29,12 +29,10 @@ public class Legionary : agent
     public Animator animator;
 
 
- 
+    [SerializeField] private float health;
 
 
-
-    //[SerializeField] private Animator animator;
-    //private bool testudo_stance;
+    public bool forming;
 
     private float r;
     private Vector3 c1;
@@ -53,7 +51,7 @@ public class Legionary : agent
 
     private float angle;
 
-   [SerializeField] private Formation formation;
+   [SerializeField] public Formation formation;
 
 
     Vector3 mouseDelta;
@@ -62,28 +60,34 @@ public class Legionary : agent
     void Start()
     {
        
-        //animator.SetBool("testudo_stance", false);
         agent = GetComponent<NavMeshAgent>();
 
-       // agent.speed = 3;
-
-        // testudo_stance = false;
+       
 
         formation = Formation.Close_Order;
 
     }
 
 
+
+
+
+
+
+
+
+
+
     void Update()
     {
-        if (formation == Formation.Open_Order)
+        if (formation == Formation.Open_Order&&forming==true)
         {
             pos = centurion.transform.position;
-            angle = -centurion.angle;
+            angle = -centurion.GetAngle();
 
             float x;
             float y;
-            x = (pos.x + offset_x_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+            x = (pos.x + offset_x_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
             y = (pos.x + offset_x_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
             pos.x = x;
@@ -92,18 +96,48 @@ public class Legionary : agent
 
             agent.destination = pos;
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                              centurion.angle,
+                                                              centurion.GetAngle(),
                                                               transform.localEulerAngles.z);
+
+
+
+                forming = false;
+            }
         }
-           // Open_Order();
-        if (formation == Formation.Close_Order)
+
+        if (formation == Formation.Open_Order && forming == false && Input.GetMouseButtonDown(1))
+            Open_Order();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (formation == Formation.Close_Order && forming == true)
         {
             pos = centurion.transform.position;
-            angle = -centurion.angle;
+            angle = -centurion.GetAngle();
             float x;
             float y;
-            x = (pos.x + offset_x_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+            x = (pos.x + offset_x_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
             y = (pos.x + offset_x_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
             pos.x = x;
@@ -112,19 +146,46 @@ public class Legionary : agent
 
             agent.destination = pos;
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                              centurion.angle,
+                                                              centurion.GetAngle(),
                                                               transform.localEulerAngles.z);
-
+                forming = false;
+            }
         }
-           // Close_Order();
-        if (formation == Formation.Testudo)
+
+        if (formation == Formation.Close_Order && forming == false)
+            Close_Order();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (formation == Formation.Testudo && forming == true)
         {
             pos = centurion.transform.position;
-            angle = -centurion.angle;
+            angle = -centurion.GetAngle();
             float x;
             float y;
-            x = (pos.x + offset_x_testudo) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_testudo) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+            x = (pos.x + offset_x_testudo) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_testudo) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
             y = (pos.x + offset_x_testudo) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_testudo) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
             pos.x = x;
@@ -134,7 +195,7 @@ public class Legionary : agent
             agent.destination = pos;
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                              centurion.angle,
+                                                              centurion.GetAngle(),
                                                               transform.localEulerAngles.z);
 
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
@@ -173,9 +234,14 @@ public class Legionary : agent
 
 
                 transform.localScale = new Vector3(transform.localScale.x, 2.5f, transform.localScale.z);
+                forming = false;
             }
+
+
+           
+
         }
-        else
+        if(formation!=Formation.Testudo)
         {
             animator.SetBool("testudo_tesserarius", false);
             animator.SetBool("testudo_optio", false);
@@ -186,14 +252,41 @@ public class Legionary : agent
             animator.SetBool("testudo3", false);
             transform.localScale = new Vector3(transform.localScale.x, 4f, transform.localScale.z);
         }
-        // Testudo();
-        if (formation == Formation.Orbis)
+
+
+
+        if (formation == Formation.Testudo && forming == false)
+            Testudo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (formation == Formation.Orbis && forming == true)
         {
             pos = centurion.transform.position;
-            angle = -centurion.angle;
+            angle = -centurion.GetAngle();
             float x;
             float y;
-            x = (pos.x + offset_x_orbis) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_orbis) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+            x = (pos.x + offset_x_orbis) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_orbis) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
             y = (pos.x + offset_x_orbis) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_orbis) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
             pos.x = x;
@@ -202,23 +295,47 @@ public class Legionary : agent
 
             agent.destination = pos;
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                              centurion.angle+angle_orbis,
+                                                              centurion.GetAngle() + angle_orbis,
                                                               transform.localEulerAngles.z);
 
 
-           
 
-
+                forming = false;
+            }
         }
-           // Orbis();
-        if (formation == Formation.Cuneus)
+
+        if (formation == Formation.Orbis && forming == false)
+
+            Orbis();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (formation == Formation.Cuneus && forming == true)
         {
             pos = centurion.transform.position;
-            angle = -centurion.angle;
+            angle = -centurion.GetAngle() ;
             float x;
             float y;
-            x = (pos.x + offset_x_cuneus) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_cuneus) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+            x = (pos.x + offset_x_cuneus) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_cuneus) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
             y = (pos.x + offset_x_cuneus) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_cuneus) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
             pos.x = x;
@@ -227,14 +344,41 @@ public class Legionary : agent
 
             agent.destination = pos;
             if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            {
+
+
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                              centurion.angle,
+                                                              centurion.GetAngle(),
                                                               transform.localEulerAngles.z);
+
+                forming = false;
+            }
         }
-           // Cuneus();
 
 
-        mouseDelta = centurion.transform.position - transform.position;
+
+        if (formation == Formation.Cuneus && forming == false&&Input.GetMouseButtonDown(1))
+            Cuneus();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            mouseDelta = centurion.transform.position - transform.position;
 
         if (mouseDelta.sqrMagnitude < 0.1f)
         {
@@ -246,13 +390,28 @@ public class Legionary : agent
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void Open_Order()
     {
         // testudo_stance = false;
         //animator.SetBool("testudo_stance", false);
         //agent.speed = 10;
-        angle = -centurion.angle;
-        if (Input.GetMouseButtonDown(0))
+        angle = -centurion.GetAngle();
+        if (Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -263,7 +422,7 @@ public class Legionary : agent
                 float x;
                 float y;
 
-                x = (pos.x + offset_x_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+                x = (pos.x + offset_x_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
                 y = (pos.x + offset_x_open_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_open_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
 
                 pos.x = x;
@@ -273,24 +432,41 @@ public class Legionary : agent
                 agent.destination = pos;
                 if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
                     transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                                  centurion.angle,
+                                                                  centurion.GetAngle(),
                                                                   transform.localEulerAngles.z);
             }
 
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void Close_Order()
     {
-        // testudo_stance = false;
-        // animator.SetBool("testudo_stance", false);
-       // agent.speed = 5;
+        
         pos = centurion.transform.position;
-        angle = -centurion.angle;
+        angle = -centurion.GetAngle();
       
         float x;
         float y;
 
-        x= (pos.x + offset_x_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad)- (pos.z + offset_y_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad)-pos.x * Mathf.Cos(centurion.angle * Mathf.Deg2Rad)+pos.z* Mathf.Sin(angle * Mathf.Deg2Rad)+pos.x;
+        x= (pos.x + offset_x_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad)- (pos.z + offset_y_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad)-pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad)+pos.z* Mathf.Sin(angle * Mathf.Deg2Rad)+pos.x;
         y = (pos.x + offset_x_close_order) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_close_order) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
        
         pos.x = x;
@@ -300,47 +476,154 @@ public class Legionary : agent
         agent.destination = pos;
         if(Vector3.Distance(gameObject.transform.position,agent.destination)<=5)
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
-                                                      centurion.angle,
+                                                      centurion.GetAngle(),
                                                       transform.localEulerAngles.z);
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void Testudo()
     {
-      //  testudo_stance = true;
-      //  animator.SetBool("testudo_stance", true);
+
         pos = centurion.transform.position;
-        pos.x = pos.x + offset_x_testudo * Mathf.Cos(centurion.angle * Mathf.Deg2Rad);
-        pos.z = pos.z + offset_y_testudo  * Mathf.Sin(centurion.angle * Mathf.Deg2Rad);
+        angle = -centurion.GetAngle();
+        float x;
+        float y;
+        x = (pos.x + offset_x_testudo) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_testudo) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+        y = (pos.x + offset_x_testudo) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_testudo) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
+
+        pos.x = x;
+        pos.z = y;
+
+
         agent.destination = pos;
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
+                                                          centurion.GetAngle(),
+                                                          transform.localEulerAngles.z);
+
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+        {
+
+
+            if (gameObject.tag == "Tesserarius")
+            {
+                animator.SetBool("testudo_tesserarius", true);
+            }
+            else
+        if (gameObject.tag == "Optio")
+            {
+                animator.SetBool("testudo_optio", true);
+            }
+            else
+        if (gameObject.tag == "Aquilifer")
+            {
+                animator.SetBool("testudo_aquilifer", true);
+            }
+            else
+        if (gameObject.tag == "Trumpeter")
+            {
+                animator.SetBool("testudo_trumpeter", true);
+            }
+            else
+        if (gameObject.tag == "Legionary")
+            {
+                if (rank_testudo == 1)
+                    animator.SetBool("testudo1", true);
+                if (rank_testudo == 2)
+                    animator.SetBool("testudo2", true);
+                if (rank_testudo == 3)
+                    animator.SetBool("testudo3", true);
+            }
+
+
+            transform.localScale = new Vector3(transform.localScale.x, 2.5f, transform.localScale.z);
+           
+        }
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
     public void Orbis()
     {
-      //  testudo_stance = false;
-      //  animator.SetBool("testudo_stance", false);
-        pos = centurion.transform.position;
-        pos.x = pos.x + offset_x_orbis;
-        pos.z = pos.z + offset_y_orbis;
-        agent.destination = pos;
 
-        gameObject.transform.Rotate(0, angle_orbis, 0);
+        pos = centurion.transform.position;
+        angle = -centurion.GetAngle();
+        float x;
+        float y;
+        x = (pos.x + offset_x_orbis) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_orbis) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+        y = (pos.x + offset_x_orbis) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_orbis) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
+
+        pos.x = x;
+        pos.z = y;
+
+
+        agent.destination = pos;
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
+                                                          centurion.GetAngle() + angle_orbis,
+                                                          transform.localEulerAngles.z);
     }
+
+
+
+
+
+
+
+
+
+
+
 
     public void Cuneus()
     {
-       // testudo_stance = false;
-        //animator.SetBool("testudo_stance", false);
-        if (Input.GetMouseButtonDown(0))
+        angle = -centurion.GetAngle();
+        if (Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 pos = hit.point;
-                pos.x = pos.x + offset_x_cuneus;
-                pos.z = pos.z + offset_y_cuneus ;
+
+                float x;
+                float y;
+                x = (pos.x + offset_x_cuneus) * Mathf.Cos(angle * Mathf.Deg2Rad) - (pos.z + offset_y_cuneus) * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.x * Mathf.Cos(centurion.GetAngle() * Mathf.Deg2Rad) + pos.z * Mathf.Sin(angle * Mathf.Deg2Rad) + pos.x;
+                y = (pos.x + offset_x_cuneus) * Mathf.Sin(angle * Mathf.Deg2Rad) + (pos.z + offset_y_cuneus) * Mathf.Cos(angle * Mathf.Deg2Rad) - pos.x * Mathf.Sin(angle * Mathf.Deg2Rad) - pos.z * Mathf.Cos(angle * Mathf.Deg2Rad) + pos.z;
+
+                pos.x = x;
+                pos.z = y;
+
+
+
                 agent.destination = pos;
+                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+                    transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
+                                                                  centurion.GetAngle(),
+                                                                  transform.localEulerAngles.z);
             }
 
         }
@@ -349,20 +632,41 @@ public class Legionary : agent
 
 
 
-
-    public void movement()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        dirVec = target_pos - formation_pos;
-        Vector3 formation_perp = new Vector3(formation_dir.x * dirVec.x, formation_dir.y * dirVec.y, formation_dir.z * dirVec.z);
+        if (collision.collider.tag == "barbarian_sword")
+        {
+            Destroy(gameObject);
 
-        formation_perp = r / formation_perp.magnitude * formation_perp;
-        c1 = formation_pos + formation_perp;
-
-        dirVec = -dirVec;
-         formation_perp = new Vector3(target_dir.x * dirVec.x, target_dir.y * dirVec.y, target_dir.z * dirVec.z);
-
-        formation_perp = r / formation_perp.magnitude * formation_perp;
-        c2 = target_pos + formation_perp;
-
+        }
+        
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //public void movement()
+    //{
+    //    dirVec = target_pos - formation_pos;
+    //    Vector3 formation_perp = new Vector3(formation_dir.x * dirVec.x, formation_dir.y * dirVec.y, formation_dir.z * dirVec.z);
+
+    //    formation_perp = r / formation_perp.magnitude * formation_perp;
+    //    c1 = formation_pos + formation_perp;
+
+    //    dirVec = -dirVec;
+    //     formation_perp = new Vector3(target_dir.x * dirVec.x, target_dir.y * dirVec.y, target_dir.z * dirVec.z);
+
+    //    formation_perp = r / formation_perp.magnitude * formation_perp;
+    //    c2 = target_pos + formation_perp;
+
+    //}
 }

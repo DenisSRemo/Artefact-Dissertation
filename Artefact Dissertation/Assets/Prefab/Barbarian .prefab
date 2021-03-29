@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2040884238038479928}
   - component: {fileID: 3803938583473655903}
   - component: {fileID: 5073636276094147150}
+  - component: {fileID: 5640273644932278432}
   - component: {fileID: 7634903584469915272}
   m_Layer: 0
   m_Name: 'Barbarian '
@@ -130,6 +131,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &5640273644932278432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4241066154608178601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d105f124cc328346b8f6344d9238543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &7634903584469915272
 Rigidbody:
   m_ObjectHideFlags: 0
