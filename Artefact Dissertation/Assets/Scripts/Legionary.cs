@@ -639,7 +639,13 @@ public class Legionary : agent
             Destroy(gameObject);
 
         }
-        
+
+        if (collision.collider.tag == "arrow")
+        {
+            Destroy(gameObject);
+
+        }
+
     }
 
 
