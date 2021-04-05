@@ -36,6 +36,21 @@ public class Centurion : agent
         angle = gameObject.transform.eulerAngles.y;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "barbarian_sword")
+        {
+            Destroy(gameObject);
+
+        }
+
+        if (collision.gameObject.tag == "arrow")
+        {
+            Destroy(gameObject);
+
+        }
+    }
+
 
 
     public float GetAngle()

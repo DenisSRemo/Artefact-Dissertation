@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4460405}
   - component: {fileID: 4460404}
+  - component: {fileID: 4460406}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -245,8 +246,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4460406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4460403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcbf6a07cd7ac248a9c33cc713f5db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8797262
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +276,7 @@ GameObject:
   - component: {fileID: 8797264}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,13 +668,13 @@ Rigidbody:
   m_GameObject: {fileID: 20172259}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &20172262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,7 +786,7 @@ Transform:
   - {fileID: 1237739480}
   - {fileID: 1502821298}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &20172267
 Animator:
@@ -927,7 +940,7 @@ GameObject:
   - component: {fileID: 21406422}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1085,13 +1098,13 @@ Rigidbody:
   m_GameObject: {fileID: 25763950}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &25763953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1240,7 +1253,7 @@ GameObject:
   - component: {fileID: 27986162}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1470,6 +1483,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1508,7 +1536,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -1523,6 +1551,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1707,13 +1755,13 @@ Rigidbody:
   m_GameObject: {fileID: 47998356}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &47998359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1825,7 +1873,7 @@ Transform:
   - {fileID: 411400957}
   - {fileID: 116175860}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &47998364
 Animator:
@@ -2371,13 +2419,13 @@ Rigidbody:
   m_GameObject: {fileID: 63433791}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &63433794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2567,13 +2615,13 @@ Rigidbody:
   m_GameObject: {fileID: 66674361}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &66674364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,7 +3355,7 @@ GameObject:
   - component: {fileID: 95435484}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3472,7 @@ GameObject:
   - component: {fileID: 105518564}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3539,9 +3587,9 @@ GameObject:
   - component: {fileID: 115340501}
   - component: {fileID: 115340500}
   - component: {fileID: 115340499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gladius_sharp (1)
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3555,7 +3603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115340497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.37, y: -0.0043352246, z: -0.0015506744}
+  m_LocalPosition: {x: 1.39, y: 0.285, z: 1.39}
   m_LocalScale: {x: 7, y: 1.75, z: 7}
   m_Children: []
   m_Father: {fileID: 1103230504}
@@ -3571,13 +3619,13 @@ Rigidbody:
   m_GameObject: {fileID: 115340497}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 50
+  m_AngularDrag: 50
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 94
+  m_CollisionDetection: 3
 --- !u!64 &115340500
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3771,6 +3819,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3809,7 +3872,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -3824,6 +3887,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3997,13 +4080,13 @@ Rigidbody:
   m_GameObject: {fileID: 133854845}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &133854848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4201,7 +4284,7 @@ GameObject:
   - component: {fileID: 166963737}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4435,7 +4518,7 @@ GameObject:
   - component: {fileID: 173075290}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4827,13 +4910,13 @@ Rigidbody:
   m_GameObject: {fileID: 193235133}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &193235136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5023,13 +5106,13 @@ Rigidbody:
   m_GameObject: {fileID: 201370550}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &201370553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5519,6 +5602,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5557,7 +5655,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -5572,6 +5670,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5639,13 +5757,13 @@ Rigidbody:
   m_GameObject: {fileID: 218332606}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &218332609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5757,7 +5875,7 @@ Transform:
   - {fileID: 1697072013}
   - {fileID: 1394904621}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &218332614
 Animator:
@@ -5911,7 +6029,7 @@ GameObject:
   - component: {fileID: 228994174}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6024,6 +6142,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6062,7 +6195,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -6077,6 +6210,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6144,13 +6297,13 @@ Rigidbody:
   m_GameObject: {fileID: 232621747}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &232621750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6808,13 +6961,13 @@ Rigidbody:
   m_GameObject: {fileID: 258554347}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &258554350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6960,7 +7113,7 @@ GameObject:
   - component: {fileID: 262867421}
   - component: {fileID: 262867420}
   - component: {fileID: 262867419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: roman_imperial_centurion_helmet_exp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7058,6 +7211,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7096,7 +7264,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -7111,6 +7279,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7311,13 +7499,13 @@ Rigidbody:
   m_GameObject: {fileID: 276670961}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &276670964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7429,7 +7617,7 @@ Transform:
   - {fileID: 60475489}
   - {fileID: 1954382634}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &276670969
 Animator:
@@ -7613,13 +7801,13 @@ Rigidbody:
   m_GameObject: {fileID: 278795402}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 84
+  m_CollisionDetection: 2
 --- !u!64 &278795405
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7741,13 +7929,13 @@ Rigidbody:
   m_GameObject: {fileID: 281325209}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &281325212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7859,7 +8047,7 @@ Transform:
   - {fileID: 282428919}
   - {fileID: 312017886}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &281325217
 Animator:
@@ -8105,7 +8293,7 @@ GameObject:
   - component: {fileID: 288597328}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8339,7 +8527,7 @@ GameObject:
   - component: {fileID: 293973525}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8614,13 +8802,13 @@ Rigidbody:
   m_GameObject: {fileID: 310235805}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &310235808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8999,6 +9187,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9037,7 +9240,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -9052,6 +9255,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9191,6 +9414,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9229,7 +9467,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -9244,6 +9482,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9270,7 +9528,7 @@ GameObject:
   - component: {fileID: 360329923}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9428,13 +9686,13 @@ Rigidbody:
   m_GameObject: {fileID: 361847511}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &361847514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9934,7 +10192,7 @@ GameObject:
   - component: {fileID: 376256604}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10071,7 +10329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120, y: 250}
+  m_AnchoredPosition: {x: 120, y: 278}
   m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380490037
@@ -10298,7 +10556,7 @@ GameObject:
   - component: {fileID: 402345448}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10924,13 +11182,13 @@ Rigidbody:
   m_GameObject: {fileID: 420930427}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &420930430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11075,6 +11333,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11113,7 +11386,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -11128,6 +11401,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11312,13 +11605,13 @@ Rigidbody:
   m_GameObject: {fileID: 444978412}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &444978415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11430,7 +11723,7 @@ Transform:
   - {fileID: 149932274}
   - {fileID: 1893866726}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 62
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &444978420
 Animator:
@@ -11508,13 +11801,13 @@ Rigidbody:
   m_GameObject: {fileID: 447451122}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &447451125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11626,7 +11919,7 @@ Transform:
   - {fileID: 1704569322}
   - {fileID: 2006210101}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &447451130
 Animator:
@@ -11821,13 +12114,13 @@ Rigidbody:
   m_GameObject: {fileID: 454741363}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &454741366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12009,9 +12302,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!64 &465953401
 MeshCollider:
@@ -12134,13 +12427,13 @@ Rigidbody:
   m_GameObject: {fileID: 475162186}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &475162189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12523,7 +12816,7 @@ GameObject:
   - component: {fileID: 491753409}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12640,7 +12933,7 @@ GameObject:
   - component: {fileID: 494724303}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12673,9 +12966,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!64 &494724304
 MeshCollider:
@@ -13032,13 +13325,13 @@ Rigidbody:
   m_GameObject: {fileID: 510783778}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &510783781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13304,7 +13597,7 @@ GameObject:
   - component: {fileID: 513603692}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13421,7 +13714,7 @@ GameObject:
   - component: {fileID: 518191943}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13534,6 +13827,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13572,7 +13880,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -13587,6 +13895,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14005,13 +14333,13 @@ Rigidbody:
   m_GameObject: {fileID: 567828988}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &567828991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14277,7 +14605,7 @@ GameObject:
   - component: {fileID: 578328470}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14396,7 +14724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &582348193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14473,8 +14801,9 @@ RectTransform:
   - {fileID: 1105824305}
   - {fileID: 1231578306}
   - {fileID: 1421752506}
+  - {fileID: 3118227666104625953}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14497,7 +14826,7 @@ GameObject:
   - component: {fileID: 585303580}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14848,7 +15177,7 @@ GameObject:
   - component: {fileID: 611489840}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15006,13 +15335,13 @@ Rigidbody:
   m_GameObject: {fileID: 627178466}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &627178469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15124,7 +15453,7 @@ Transform:
   - {fileID: 248113835}
   - {fileID: 884664780}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &627178474
 Animator:
@@ -15863,13 +16192,13 @@ Rigidbody:
   m_GameObject: {fileID: 676995457}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &676995460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16059,13 +16388,13 @@ Rigidbody:
   m_GameObject: {fileID: 678064321}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &678064324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17125,7 +17454,7 @@ GameObject:
   - component: {fileID: 721540246}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17242,7 +17571,7 @@ GameObject:
   - component: {fileID: 724930609}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17476,7 +17805,7 @@ GameObject:
   - component: {fileID: 734098041}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17827,7 +18156,7 @@ GameObject:
   - component: {fileID: 754467336}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17944,7 +18273,7 @@ GameObject:
   - component: {fileID: 785180822}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18219,13 +18548,13 @@ Rigidbody:
   m_GameObject: {fileID: 788083563}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &788083566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18370,6 +18699,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18408,7 +18752,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -18423,6 +18767,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -18490,13 +18854,13 @@ Rigidbody:
   m_GameObject: {fileID: 800713514}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &800713517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18645,7 +19009,7 @@ GameObject:
   - component: {fileID: 808078416}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18879,7 +19243,7 @@ GameObject:
   - component: {fileID: 853665163}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19113,7 +19477,7 @@ GameObject:
   - component: {fileID: 861296713}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19271,13 +19635,13 @@ Rigidbody:
   m_GameObject: {fileID: 864873292}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &864873295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19543,7 +19907,7 @@ GameObject:
   - component: {fileID: 879836075}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19849,13 +20213,13 @@ Rigidbody:
   m_GameObject: {fileID: 886200439}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!136 &886200443
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19970,6 +20334,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20008,7 +20387,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -20023,6 +20402,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20049,7 +20448,7 @@ GameObject:
   - component: {fileID: 894816593}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20396,6 +20795,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20434,7 +20848,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -20449,6 +20863,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20516,13 +20950,13 @@ Rigidbody:
   m_GameObject: {fileID: 899502011}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &899502014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20766,7 +21200,7 @@ GameObject:
   - component: {fileID: 904634766}
   - component: {fileID: 904634768}
   - component: {fileID: 904634767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Object001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20894,13 +21328,13 @@ Rigidbody:
   m_GameObject: {fileID: 904767469}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &904767472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21207,13 +21641,13 @@ Rigidbody:
   m_GameObject: {fileID: 914829320}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &914829323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21727,7 +22161,7 @@ GameObject:
   - component: {fileID: 946747011}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21961,7 +22395,7 @@ GameObject:
   - component: {fileID: 954852352}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22180,7 +22614,7 @@ GameObject:
   - component: {fileID: 964079741}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22338,13 +22772,13 @@ Rigidbody:
   m_GameObject: {fileID: 964852453}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &964852456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22534,13 +22968,13 @@ Rigidbody:
   m_GameObject: {fileID: 976675850}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &976675853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22806,7 +23240,7 @@ GameObject:
   - component: {fileID: 989397036}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23040,7 +23474,7 @@ GameObject:
   - component: {fileID: 1007128744}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23198,13 +23632,13 @@ Rigidbody:
   m_GameObject: {fileID: 1010896637}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1010896640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23351,7 +23785,7 @@ GameObject:
   - component: {fileID: 1012058126}
   - component: {fileID: 1012058125}
   - component: {fileID: 1012058124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roman_scutum_shield (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23383,13 +23817,13 @@ Rigidbody:
   m_GameObject: {fileID: 1012058122}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 50
+  m_AngularDrag: 50
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 94
+  m_CollisionDetection: 2
 --- !u!64 &1012058125
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23511,13 +23945,13 @@ Rigidbody:
   m_GameObject: {fileID: 1018836737}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1018836740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23629,7 +24063,7 @@ Transform:
   - {fileID: 62856510}
   - {fileID: 690841664}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1018836745
 Animator:
@@ -24251,7 +24685,7 @@ GameObject:
   - component: {fileID: 1033508651}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24409,13 +24843,13 @@ Rigidbody:
   m_GameObject: {fileID: 1033564986}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1033564989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24527,7 +24961,7 @@ Transform:
   - {fileID: 569302888}
   - {fileID: 1396793037}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1033564994
 Animator:
@@ -24605,13 +25039,13 @@ Rigidbody:
   m_GameObject: {fileID: 1039111196}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1039111199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24925,7 +25359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1050469550
 GameObject:
@@ -24984,13 +25418,13 @@ Rigidbody:
   m_GameObject: {fileID: 1050469550}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1050469553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25180,13 +25614,13 @@ Rigidbody:
   m_GameObject: {fileID: 1059076031}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1059076034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25569,7 +26003,7 @@ GameObject:
   - component: {fileID: 1077298332}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26195,13 +26629,13 @@ Rigidbody:
   m_GameObject: {fileID: 1099997993}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1099997996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26352,7 +26786,7 @@ GameObject:
   - component: {fileID: 1103230499}
   - component: {fileID: 1103230498}
   - component: {fileID: 1103230505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Centurion
   m_TagString: Centurion
   m_Icon: {fileID: 0}
@@ -26422,13 +26856,13 @@ Rigidbody:
   m_GameObject: {fileID: 1103230496}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 84
+  m_CollisionDetection: 2
 --- !u!136 &1103230501
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26566,7 +27000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120, y: 150}
+  m_AnchoredPosition: {x: 120, y: 180}
   m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105824306
@@ -26676,7 +27110,7 @@ GameObject:
   - component: {fileID: 1107639043}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26834,13 +27268,13 @@ Rigidbody:
   m_GameObject: {fileID: 1111253975}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1111253978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26952,7 +27386,7 @@ Transform:
   - {fileID: 1602324835}
   - {fileID: 541201686}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1111253983
 Animator:
@@ -27223,7 +27657,7 @@ GameObject:
   - component: {fileID: 1128356939}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27336,6 +27770,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27374,7 +27823,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -27389,6 +27838,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27573,13 +28042,13 @@ Rigidbody:
   m_GameObject: {fileID: 1156805320}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1156805323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27769,13 +28238,13 @@ Rigidbody:
   m_GameObject: {fileID: 1179711008}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1179711011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27908,6 +28377,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1186192771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1186192772}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1186192772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186192771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: -77.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189701028
 GameObject:
   m_ObjectHideFlags: 0
@@ -27965,13 +28464,13 @@ Rigidbody:
   m_GameObject: {fileID: 1189701028}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1189701031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28491,7 +28990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120, y: 100}
+  m_AnchoredPosition: {x: 120, y: 135}
   m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231578307
@@ -28642,13 +29141,13 @@ Rigidbody:
   m_GameObject: {fileID: 1235256495}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1235256498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28797,7 +29296,7 @@ GameObject:
   - component: {fileID: 1236691289}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29144,6 +29643,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29182,7 +29696,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -29197,6 +29711,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -29264,13 +29798,13 @@ Rigidbody:
   m_GameObject: {fileID: 1254613770}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1254613773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29382,7 +29916,7 @@ Transform:
   - {fileID: 989314790}
   - {fileID: 2046413333}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1254613778
 Animator:
@@ -29536,7 +30070,7 @@ GameObject:
   - component: {fileID: 1265901642}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29815,13 +30349,13 @@ Rigidbody:
   m_GameObject: {fileID: 1273676759}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 2
 --- !u!1 &1277033115
 GameObject:
   m_ObjectHideFlags: 0
@@ -29879,13 +30413,13 @@ Rigidbody:
   m_GameObject: {fileID: 1277033115}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1277033118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30030,7 +30564,7 @@ GameObject:
   - component: {fileID: 1279898877}
   - component: {fileID: 1279898879}
   - component: {fileID: 1279898878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roman_imperial_centurion_helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30078,14 +30612,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279898876}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 100
+  m_Drag: 100
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!1 &1281329261
 GameObject:
   m_ObjectHideFlags: 0
@@ -30219,7 +30753,7 @@ GameObject:
   - component: {fileID: 1283050313}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30336,7 +30870,7 @@ GameObject:
   - component: {fileID: 1283171616}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30642,13 +31176,13 @@ Rigidbody:
   m_GameObject: {fileID: 1298014375}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!136 &1298014379
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -30808,13 +31342,13 @@ Rigidbody:
   m_GameObject: {fileID: 1299300756}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1299300759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31004,13 +31538,13 @@ Rigidbody:
   m_GameObject: {fileID: 1302954104}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1302954107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31159,7 +31693,7 @@ GameObject:
   - component: {fileID: 1310361333}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31272,6 +31806,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31310,7 +31859,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -31325,6 +31874,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31392,13 +31961,13 @@ Rigidbody:
   m_GameObject: {fileID: 1324998232}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1324998235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31660,6 +32229,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31698,7 +32282,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -31713,6 +32297,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31856,7 +32460,7 @@ GameObject:
   - component: {fileID: 1350730158}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31973,7 +32577,7 @@ GameObject:
   - component: {fileID: 1361609167}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32582,13 +33186,13 @@ Rigidbody:
   m_GameObject: {fileID: 1378994648}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &1378994651
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32665,6 +33269,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32703,7 +33322,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -32718,6 +33337,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -32739,6 +33378,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barbarian (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -32778,7 +33432,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -32793,6 +33447,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -33049,6 +33723,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33087,7 +33776,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -33102,6 +33791,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -33241,6 +33950,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33279,7 +34003,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -33294,6 +34018,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -33565,7 +34309,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421752505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -61}
+  m_LocalPosition: {x: 0, y: 0, z: -85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 916388247}
@@ -33574,7 +34318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120, y: 50}
+  m_AnchoredPosition: {x: 120, y: 89}
   m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421752507
@@ -33684,7 +34428,7 @@ GameObject:
   - component: {fileID: 1422637033}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33801,7 +34545,7 @@ GameObject:
   - component: {fileID: 1436846236}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34076,13 +34820,13 @@ Rigidbody:
   m_GameObject: {fileID: 1445280175}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1445280178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34344,6 +35088,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34382,7 +35141,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -34397,6 +35156,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -34464,13 +35243,13 @@ Rigidbody:
   m_GameObject: {fileID: 1454963567}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1454963570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34582,7 +35361,7 @@ Transform:
   - {fileID: 999256033}
   - {fileID: 2073569386}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1454963575
 Animator:
@@ -34614,6 +35393,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barbarian (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -34653,7 +35447,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -34668,6 +35462,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -34735,13 +35549,13 @@ Rigidbody:
   m_GameObject: {fileID: 1472113088}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1472113091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34931,13 +35745,13 @@ Rigidbody:
   m_GameObject: {fileID: 1476607935}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1476607938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35549,7 +36363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120, y: 200}
+  m_AnchoredPosition: {x: 120, y: 229}
   m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514941706
@@ -35643,81 +36457,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514941704}
   m_CullTransparentMesh: 0
---- !u!1001 &1517364793
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2079754824}
-    m_Modifications:
-    - target: {fileID: 4241066154608178601, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_Name
-      value: Barbarian (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a22dd385c4258504383ea8362ffbe428, type: 3}
---- !u!4 &1517364794 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
-    type: 3}
-  m_PrefabInstance: {fileID: 1517364793}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1519329503
 GameObject:
   m_ObjectHideFlags: 0
@@ -35775,13 +36514,13 @@ Rigidbody:
   m_GameObject: {fileID: 1519329503}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1519329506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35893,7 +36632,7 @@ Transform:
   - {fileID: 1786028510}
   - {fileID: 366290271}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1519329511
 Animator:
@@ -35930,7 +36669,7 @@ GameObject:
   - component: {fileID: 1520032053}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36080,9 +36819,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!64 &1531671882
 MeshCollider:
@@ -36322,13 +37061,13 @@ Rigidbody:
   m_GameObject: {fileID: 1543174393}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1543174396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36635,13 +37374,13 @@ Rigidbody:
   m_GameObject: {fileID: 1547993296}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1547993299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36831,13 +37570,13 @@ Rigidbody:
   m_GameObject: {fileID: 1559880375}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1559880378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36986,7 +37725,7 @@ GameObject:
   - component: {fileID: 1563741278}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37220,7 +37959,7 @@ GameObject:
   - component: {fileID: 1568359212}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37337,7 +38076,7 @@ GameObject:
   - component: {fileID: 1579838470}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37884,6 +38623,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37922,7 +38676,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -37937,6 +38691,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -38004,13 +38778,13 @@ Rigidbody:
   m_GameObject: {fileID: 1608991283}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1608991286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38158,7 +38932,7 @@ GameObject:
   - component: {fileID: 1609501318}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38311,13 +39085,13 @@ Rigidbody:
   m_GameObject: {fileID: 1612959910}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1612959913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38429,7 +39203,7 @@ Transform:
   - {fileID: 1644047418}
   - {fileID: 640609266}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1612959918
 Animator:
@@ -38507,13 +39281,13 @@ Rigidbody:
   m_GameObject: {fileID: 1618138667}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1618138670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38625,7 +39399,7 @@ Transform:
   - {fileID: 2025011704}
   - {fileID: 713271890}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1618138675
 Animator:
@@ -39322,7 +40096,6 @@ Transform:
   - {fileID: 420930434}
   - {fileID: 1324998239}
   - {fileID: 788083570}
-  - {fileID: 444978419}
   - {fileID: 627178473}
   - {fileID: 281325216}
   - {fileID: 20172266}
@@ -39341,9 +40114,10 @@ Transform:
   - {fileID: 1612959917}
   - {fileID: 218332613}
   - {fileID: 1111253982}
+  - {fileID: 444978419}
   - {fileID: 1179711015}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1667423482
 GameObject:
@@ -39402,13 +40176,13 @@ Rigidbody:
   m_GameObject: {fileID: 1667423482}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1667423485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39598,13 +40372,13 @@ Rigidbody:
   m_GameObject: {fileID: 1668312402}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1668312405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39716,7 +40490,7 @@ Transform:
   - {fileID: 414649709}
   - {fileID: 18370886}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1668312410
 Animator:
@@ -39870,7 +40644,7 @@ GameObject:
   - component: {fileID: 1701148121}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40104,7 +40878,7 @@ GameObject:
   - component: {fileID: 1704178972}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40338,7 +41112,7 @@ GameObject:
   - component: {fileID: 1709741154}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40455,7 +41229,7 @@ GameObject:
   - component: {fileID: 1711766888}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40568,6 +41342,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40606,7 +41395,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -40621,6 +41410,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -40802,13 +41611,13 @@ Rigidbody:
   m_GameObject: {fileID: 1731237591}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1731237594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40993,13 +41802,13 @@ Rigidbody:
   m_GameObject: {fileID: 1735757937}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1735757940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41148,7 +41957,7 @@ GameObject:
   - component: {fileID: 1742775175}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41382,7 +42191,7 @@ GameObject:
   - component: {fileID: 1770198549}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41721,6 +42530,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41759,7 +42583,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -41774,6 +42598,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -41917,7 +42761,7 @@ GameObject:
   - component: {fileID: 1787305908}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42034,7 +42878,7 @@ GameObject:
   - component: {fileID: 1790679962}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42151,7 +42995,7 @@ GameObject:
   - component: {fileID: 1790918873}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42309,13 +43153,13 @@ Rigidbody:
   m_GameObject: {fileID: 1798339366}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1798339369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42948,13 +43792,13 @@ Rigidbody:
   m_GameObject: {fileID: 1825252435}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1825252438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43353,7 +44197,7 @@ GameObject:
   - component: {fileID: 1847515421}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43470,7 +44314,7 @@ GameObject:
   - component: {fileID: 1874470032}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43587,7 +44431,7 @@ GameObject:
   - component: {fileID: 1878623858}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43745,13 +44589,13 @@ Rigidbody:
   m_GameObject: {fileID: 1882818589}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1882818592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43863,7 +44707,7 @@ Transform:
   - {fileID: 28508721}
   - {fileID: 692526299}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1882818597
 Animator:
@@ -43941,13 +44785,13 @@ Rigidbody:
   m_GameObject: {fileID: 1885323674}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1885323677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44504,13 +45348,13 @@ Rigidbody:
   m_GameObject: {fileID: 1905676517}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1905676520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44622,7 +45466,7 @@ Transform:
   - {fileID: 76988767}
   - {fileID: 1405681362}
   m_Father: {fileID: 1666452893}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1905676525
 Animator:
@@ -44817,13 +45661,13 @@ Rigidbody:
   m_GameObject: {fileID: 1917744061}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1917744064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44972,7 +45816,7 @@ GameObject:
   - component: {fileID: 1918740608}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45206,7 +46050,7 @@ GameObject:
   - component: {fileID: 1927872968}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45395,13 +46239,13 @@ Rigidbody:
   m_GameObject: {fileID: 1937497278}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!136 &1937497282
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -45562,13 +46406,13 @@ Rigidbody:
   m_GameObject: {fileID: 1940808586}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1940808589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45717,7 +46561,7 @@ GameObject:
   - component: {fileID: 1943155721}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46068,7 +46912,7 @@ GameObject:
   - component: {fileID: 1966683777}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46185,7 +47029,7 @@ GameObject:
   - component: {fileID: 1970298750}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46460,13 +47304,13 @@ Rigidbody:
   m_GameObject: {fileID: 1978200282}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &1978200285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46728,6 +47572,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46766,7 +47625,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -46781,6 +47640,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -46924,7 +47803,7 @@ GameObject:
   - component: {fileID: 1993099387}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47158,7 +48037,7 @@ GameObject:
   - component: {fileID: 2015971433}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47275,7 +48154,7 @@ GameObject:
   - component: {fileID: 2023890243}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47500,15 +48379,175 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2079754824}
     m_Modifications:
+    - target: {fileID: 62138532673030706, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 62138532673030706, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651423057716573214, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651423057716573214, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630895924726414816, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4241066154608178601, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_Name
       value: Barbarian (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4241066154608178601, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241066154608178601, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483172683153236655, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619594421848013176, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: advance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1186192772}
+    - target: {fileID: 7011257703672644542, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011257703672644542, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011257703672644542, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -47518,7 +48557,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 19.600002
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -47543,7 +48582,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -47559,6 +48598,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Drag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a22dd385c4258504383ea8362ffbe428, type: 3}
@@ -47625,13 +48699,13 @@ Rigidbody:
   m_GameObject: {fileID: 2030903767}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &2030903770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48203,13 +49277,13 @@ Rigidbody:
   m_GameObject: {fileID: 2061408001}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!136 &2061408005
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -48603,13 +49677,13 @@ Rigidbody:
   m_GameObject: {fileID: 2067122738}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &2067122741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48875,7 +49949,7 @@ GameObject:
   - component: {fileID: 2078176111}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49000,10 +50074,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079754823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 300}
+  m_LocalPosition: {x: -5.5, y: 0, z: 109.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1517364794}
   - {fileID: 2030464061}
   - {fileID: 1401267432}
   - {fileID: 1406683461}
@@ -49034,7 +50107,7 @@ Transform:
   - {fileID: 897191617}
   - {fileID: 1451828052}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087661845
 GameObject:
@@ -49052,7 +50125,7 @@ GameObject:
   - component: {fileID: 2087661847}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49444,13 +50517,13 @@ Rigidbody:
   m_GameObject: {fileID: 2099611905}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &2099611908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49599,7 +50672,7 @@ GameObject:
   - component: {fileID: 2106096389}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49757,13 +50830,13 @@ Rigidbody:
   m_GameObject: {fileID: 2108285152}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &2108285155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50070,13 +51143,13 @@ Rigidbody:
   m_GameObject: {fileID: 2129830583}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!114 &2129830586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50225,7 +51298,7 @@ GameObject:
   - component: {fileID: 2135694890}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50455,6 +51528,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Barbarian '
       objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640273644932278432, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50493,7 +51581,7 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
@@ -50508,6 +51596,26 @@ PrefabInstance:
     - target: {fileID: 7580629775739317017, guid: a22dd385c4258504383ea8362ffbe428,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634903584469915272, guid: a22dd385c4258504383ea8362ffbe428,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -50525,6 +51633,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2079754824}
     m_Modifications:
+    - target: {fileID: 336703907992343171, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 336703907992343171, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: charge
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 336703907992343171, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194614397480379237, guid: d237420915df2854c99c40311d63e44e,
         type: 3}
       propertyPath: m_Name
@@ -50568,7 +51691,7 @@ PrefabInstance:
     - target: {fileID: 2194614397480379241, guid: d237420915df2854c99c40311d63e44e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2194614397480379241, guid: d237420915df2854c99c40311d63e44e,
         type: 3}
@@ -50585,6 +51708,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2668768417172057870, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668768417172057870, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668768417172057870, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668768417172057870, guid: d237420915df2854c99c40311d63e44e,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d237420915df2854c99c40311d63e44e, type: 3}
 --- !u!4 &2194614398336474914 stripped
@@ -50592,4 +51735,139 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2194614397480379241, guid: d237420915df2854c99c40311d63e44e,
     type: 3}
   m_PrefabInstance: {fileID: 2194614398336474913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3118227666104625952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 582348196}
+    m_Modifications:
+    - target: {fileID: 1657143155522396319, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_Name
+      value: Start scenario
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717258216094833746, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4460406}
+    - target: {fileID: 6717258216094833746, guid: b3b57e78474ae2a48b5647459aba84f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2079754823}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3b57e78474ae2a48b5647459aba84f6, type: 3}
+--- !u!224 &3118227666104625953 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6239462618879093935, guid: b3b57e78474ae2a48b5647459aba84f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3118227666104625952}
   m_PrefabAsset: {fileID: 0}

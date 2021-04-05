@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Century : MonoBehaviour
 {
@@ -8,7 +9,10 @@ public class Century : MonoBehaviour
 
 
     [SerializeField] private Centurion centurion;
-    [SerializeField] private List<Legionary> legionaries; 
+    [SerializeField] private List<Legionary> legionaries;
+
+
+    NavMeshAgent Agent;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +21,9 @@ public class Century : MonoBehaviour
             
             legionaries[i].Close_Order();
         }
+
+
+        Agent= GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -35,6 +42,7 @@ public class Century : MonoBehaviour
             legionaries[i].forming = true;
         }
         centurion.formation = agent.Formation.Open_Order;
+        Agent.speed = 10f;
     }
 
     public void Close_Order()
@@ -46,6 +54,7 @@ public class Century : MonoBehaviour
             legionaries[i].forming = true;
         }
         centurion.formation = agent.Formation.Close_Order ;
+        Agent.speed = 5f;
     }
 
     public void Testudo()
@@ -58,6 +67,7 @@ public class Century : MonoBehaviour
         }
 
         centurion.formation = agent.Formation.Testudo;
+        Agent.speed = 1f;
     }
 
 
@@ -71,6 +81,7 @@ public class Century : MonoBehaviour
         }
 
         centurion.formation = agent.Formation.Orbis;
+        Agent.speed = 1f;
     }
 
     public void Cuneus()
@@ -83,6 +94,28 @@ public class Century : MonoBehaviour
         }
 
         centurion.formation = agent.Formation.Cuneus;
+        Agent.speed = 10f;
     }
+
+
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "barbarian_sword")
+        {
+            Destroy(gameObject);
+
+        }
+
+        if (collision.gameObject.tag == "arrow")
+        {
+            Destroy(gameObject);
+
+        }
+    }
+
+
+
 
 }

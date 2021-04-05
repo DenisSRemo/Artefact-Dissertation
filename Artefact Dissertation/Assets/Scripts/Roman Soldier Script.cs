@@ -12,7 +12,7 @@ public class RomanSoldierScript : MonoBehaviour
         Orbis,
         Cuneus
     };
-    [SerializeField] private CenturionScript centurion;
+    //[SerializeField] private CenturionScript centurion;
     [SerializeField] private int Rank;
     [SerializeField] private int Column;
 

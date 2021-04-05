@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 1753884600786036665}
   m_Layer: 0
   m_Name: Gladius_sharp
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -446,10 +446,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centurion: {fileID: 0}
-  Rank: 0
-  Column: 0
+  offset_y_close_order: 0
+  offset_x_close_order: 0
+  offset_y_open_order: 0
+  offset_x_open_order: 0
+  offset_y_testudo: 0
+  offset_x_testudo: 0
+  rank_testudo: 0
+  offset_y_orbis: 0
+  offset_x_orbis: 0
+  angle_orbis: 0
+  offset_y_cuneus: 0
+  offset_x_cuneus: 0
   pos: {x: 0, y: 0, z: 0}
-  distanceOpenOrder: 10
+  animator: {fileID: 0}
+  health: 0
+  forming: 0
+  formation: 0
 --- !u!54 &8261078546537653317
 Rigidbody:
   m_ObjectHideFlags: 0

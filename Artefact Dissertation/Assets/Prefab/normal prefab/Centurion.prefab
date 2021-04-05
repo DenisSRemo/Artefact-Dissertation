@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 5357172123996500859}
   m_Layer: 0
   m_Name: Gladius_sharp (1)
-  m_TagString: Untagged
+  m_TagString: legionary_sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -625,3 +625,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   formation: 0
   angle: 0
+  animator: {fileID: 0}

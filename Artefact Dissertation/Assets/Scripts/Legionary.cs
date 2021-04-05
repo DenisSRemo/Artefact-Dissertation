@@ -437,6 +437,7 @@ public class Legionary : agent
             }
 
         }
+        agent.speed = 10f;
     }
 
 
@@ -479,7 +480,7 @@ public class Legionary : agent
                                                       centurion.GetAngle(),
                                                       transform.localEulerAngles.z);
 
-
+        agent.speed = 5f;
     }
 
 
@@ -553,6 +554,8 @@ public class Legionary : agent
            
         }
 
+
+        agent.speed = 1f;
     }
 
 
@@ -585,6 +588,8 @@ public class Legionary : agent
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                           centurion.GetAngle() + angle_orbis,
                                                           transform.localEulerAngles.z);
+
+        agent.speed = 1f;
     }
 
 
@@ -627,29 +632,28 @@ public class Legionary : agent
             }
 
         }
+
+        agent.speed = 10f;
     }
 
 
 
+   
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "barbarian_sword")
+        if (collision.gameObject.tag == "barbarian_sword")
         {
             Destroy(gameObject);
 
         }
 
-        if (collision.collider.tag == "arrow")
+        if (collision.gameObject.tag=="arrow")
         {
             Destroy(gameObject);
 
         }
-
     }
-
-
-
 
 
 
