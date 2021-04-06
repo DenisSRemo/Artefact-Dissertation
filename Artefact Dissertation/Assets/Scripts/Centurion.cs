@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Centurion : agent
 {
@@ -10,6 +11,7 @@ public class Centurion : agent
     private bool testudo_stance;
     public float angle;
     public Animator animator;
+    [SerializeField] private NavMeshAgent Agent;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,7 @@ public class Centurion : agent
         formation = Formation.Close_Order;
         testudo_stance = false;
         angle = gameObject.transform.eulerAngles.y;
+        Agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -34,22 +37,36 @@ public class Centurion : agent
             transform.localScale = new Vector3(transform.localScale.x, 4f, transform.localScale.z);
         }
         angle = gameObject.transform.eulerAngles.y;
+        if(formation==Formation.Open_Order)
+            Agent.speed = 10f;
+
+        if (formation == Formation.Close_Order)
+            Agent.speed = 5f;
+
+        if (formation == Formation.Testudo)
+            Agent.speed = 1f;
+
+        if (formation == Formation.Orbis)
+            Agent.speed = 1f;
+
+        if (formation == Formation.Cuneus)
+            Agent.speed = 10f;
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "barbarian_sword")
-        {
-            Destroy(gameObject);
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "barbarian_sword")
+    //    {
+    //        Destroy(gameObject);
 
-        }
+    //    }
 
-        if (collision.gameObject.tag == "arrow")
-        {
-            Destroy(gameObject);
+    //    if (collision.gameObject.tag == "arrow")
+    //    {
+    //        Destroy(gameObject);
 
-        }
-    }
+    //    }
+    //}
 
 
 

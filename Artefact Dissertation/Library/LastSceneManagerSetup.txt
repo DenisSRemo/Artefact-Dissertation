@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/barbarian frontal charge scenario.unity
+- path: Assets/Scenes/arrow storm scenario.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

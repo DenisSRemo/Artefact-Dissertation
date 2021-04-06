@@ -47,7 +47,7 @@ public class Legionary : agent
     private Vector3 target_dir;
     private Vector3 dirVec;
 
-    NavMeshAgent agent;
+   [SerializeField] private NavMeshAgent agent;
 
     private float angle;
 
@@ -95,7 +95,7 @@ public class Legionary : agent
 
 
             agent.destination = pos;
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                               centurion.GetAngle(),
@@ -145,7 +145,7 @@ public class Legionary : agent
 
 
             agent.destination = pos;
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                               centurion.GetAngle(),
@@ -193,12 +193,12 @@ public class Legionary : agent
 
 
             agent.destination = pos;
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                               centurion.GetAngle(),
                                                               transform.localEulerAngles.z);
 
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             {
 
 
@@ -294,7 +294,7 @@ public class Legionary : agent
 
 
             agent.destination = pos;
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             {
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                               centurion.GetAngle() + angle_orbis,
@@ -343,7 +343,7 @@ public class Legionary : agent
 
 
             agent.destination = pos;
-            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+            if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             {
 
 
@@ -430,7 +430,7 @@ public class Legionary : agent
 
 
                 agent.destination = pos;
-                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
                     transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                                   centurion.GetAngle(),
                                                                   transform.localEulerAngles.z);
@@ -475,7 +475,7 @@ public class Legionary : agent
 
 
         agent.destination = pos;
-        if(Vector3.Distance(gameObject.transform.position,agent.destination)<=5)
+        if(Vector3.Distance(gameObject.transform.position,agent.destination)<=4.1)
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                       centurion.GetAngle(),
                                                       transform.localEulerAngles.z);
@@ -510,12 +510,12 @@ public class Legionary : agent
 
 
         agent.destination = pos;
-        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                           centurion.GetAngle(),
                                                           transform.localEulerAngles.z);
 
-        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
         {
 
 
@@ -584,7 +584,7 @@ public class Legionary : agent
 
 
         agent.destination = pos;
-        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+        if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                           centurion.GetAngle() + angle_orbis,
                                                           transform.localEulerAngles.z);
@@ -625,7 +625,7 @@ public class Legionary : agent
 
 
                 agent.destination = pos;
-                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 5)
+                if (Vector3.Distance(gameObject.transform.position, agent.destination) <= 4.1)
                     transform.localEulerAngles = new Vector3(transform.localEulerAngles.x,
                                                                   centurion.GetAngle(),
                                                                   transform.localEulerAngles.z);
