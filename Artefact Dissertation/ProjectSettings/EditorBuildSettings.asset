@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/arrow storm scenario.unity
+    guid: 2500efe9238d15a4782b7367b81e72e4
+  - enabled: 1
+    path: Assets/Scenes/barbarian frontal charge scenario.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/encirclement scenario.unity
+    guid: a458f1d8ef40ee0478afabe8cecfab08
+  - enabled: 1
+    path: Assets/Scenes/roman frontal charge scenario.unity
+    guid: 488a65329c48bc64cac344bb0fe54233
+  - enabled: 1
+    path: Assets/Scenes/roman frontal charge weak point scenario.unity
+    guid: fc18f71f2ee44464d90c11dbccc5ac85
+  - enabled: 1
+    path: Assets/Scenes/Formation showcase.unity
+    guid: e1e1d927e7560404bbe581189d32a20a
   m_configObjects: {}
