@@ -71,7 +71,12 @@ public class Legionary : agent
 
 
 
-
+    //there are two situations for every formation:
+    //1. when forming, like changing between formations
+    //2. when moving towards the target
+    // For situation 1, the agents move towards their designated offset position in the formation, depending on the position of the leader( in this case the centurion).
+    // For situation 2, depending on the formation, the agents move towards their designated offset position in the formation like in situation 1, 
+    //or they move towards  offset position, directly based on the user input
 
 
 

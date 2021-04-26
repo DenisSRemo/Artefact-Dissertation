@@ -25,6 +25,7 @@ public class barbarian : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // depending on the scenario, the barbarians will change to or advance towards the roman formation
         if(advance)
         {
             speed = 5f;

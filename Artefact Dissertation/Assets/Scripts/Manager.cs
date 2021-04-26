@@ -20,7 +20,7 @@ public class Manager : MonoBehaviour
         
     }
 
-
+    // activate the scenario
     public void functionForButton(GameObject gameObject)
     {
 

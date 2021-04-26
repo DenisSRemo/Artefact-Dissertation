@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         
     }
-
+    //Movement of the centurion(leader of the formation)
     void Update()
     {
         if (Input.GetMouseButtonDown(1))
